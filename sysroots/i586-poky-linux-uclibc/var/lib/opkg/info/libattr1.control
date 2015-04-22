@@ -1,0 +1,13 @@
+Package: libattr1
+Version: 2.4.46-r4
+Description: attr version 2.4.46-r4
+ utilities for manipulating filesystem extended attributes
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1+
+Architecture: i586
+OE: attr
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.46.src.tar.gz file://generic-syscalls.patch file://relative-libdir.patch;striplevel=0

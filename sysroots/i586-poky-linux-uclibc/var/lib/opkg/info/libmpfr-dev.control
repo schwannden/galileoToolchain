@@ -1,0 +1,16 @@
+Package: libmpfr-dev
+Version: 3.1.1-r0
+Description: mpfr version 3.1.1-r0 - Development files
+ A C library for multiple-precision floating-point computations with exact
+ rounding  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3&LGPLv3
+Architecture: i586
+OE: mpfr
+Homepage: http://www.mpfr.org/
+Depends: libmpfr4 (= 3.1.1-r0)
+Recommends: libgcc-s-dev, libc-dev, libgmp-dev
+Source: http://www.mpfr.org/mpfr-3.1.1/mpfr-3.1.1.tar.bz2 file://long-long-thumb.patch

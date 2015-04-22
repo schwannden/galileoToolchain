@@ -1,0 +1,14 @@
+Package: modutils-initscripts-dev
+Version: 1.0-r6
+Description: modutils-initscripts version 1.0-r6 - Development files
+ modutils configuration files  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: PD
+Architecture: i586
+OE: modutils-initscripts
+Homepage: unknown
+Depends: modutils-initscripts (= 1.0-r6)
+Source: file://modutils.sh file://PD.patch file://bsp.conf

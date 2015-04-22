@@ -1,0 +1,13 @@
+Package: libpanel5
+Version: 5.9-r15.1
+Description: The New Curses library
+ ncurses panel library
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libtinfo5 (>= 5.9), libncurses5 (>= 5.9)
+Source: ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz file://tic-hang.patch file://config.cache

@@ -1,0 +1,14 @@
+Package: liblzo2-dbg
+Version: 2.06-r1
+Description: lzo version 2.06-r1 - Debugging files
+ Lossless data compression library  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Recommends: libgcc-s-dbg, libc-dbg, liblzo2-2 (= 2.06-r1)
+Source: http://www.oberhumer.com/opensource/lzo/download/lzo-2.06.tar.gz file://acinclude.m4

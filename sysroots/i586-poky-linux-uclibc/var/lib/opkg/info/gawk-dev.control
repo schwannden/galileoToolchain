@@ -1,0 +1,16 @@
+Package: gawk-dev
+Version: 4.0.2-r0
+Description: gawk version 4.0.2-r0 - Development files
+ A program that you can use to select particular records in a file and
+ perform operations upon them.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3
+Architecture: i586
+OE: gawk
+Homepage: www.gnu.org/software/gawk
+Depends: gawk (= 4.0.2-r0)
+Recommends: update-alternatives-cworth-dev, uclibc-libdl-dev, uclibc-libm-dev, libreadline-dev, libc-dev, libgcc-s-dev, gawk-common-dev
+Source: ftp://ftp.gnu.org/gnu/gawk/gawk-4.0.2.tar.gz

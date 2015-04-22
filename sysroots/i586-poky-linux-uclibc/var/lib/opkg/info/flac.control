@@ -1,0 +1,14 @@
+Package: flac
+Version: 1.2.1-r4
+Description: Free Lossless Audio Codec
+ FLAC stands for Free Lossless Audio Codec, an audio format similar to
+ MP3, but lossless.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GFDL-1.2 & GPLv2+ & LGPLv2.1+ & BSD
+Architecture: i586
+OE: flac
+Homepage: http://flac.sourceforge.net/
+Depends: libiconv (>= 1.14), libgcc1 (>= 4.7.2), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libflac8 (>= 1.2.1), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://downloads.sourceforge.net/flac/flac-1.2.1.tar.gz file://disable-xmms-plugin.patch file://flac-gcc43-fixes.patch file://xmms.m4 file://0001-No-AltiVec-on-SPE.patch file://asm-pic.patch file://obsolete_automake_macros.patch

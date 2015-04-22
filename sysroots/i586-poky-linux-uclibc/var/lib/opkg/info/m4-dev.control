@@ -1,0 +1,19 @@
+Package: m4-dev
+Version: 1.4.16-r4
+Description: Traditional Unix macro processor - Development files
+ GNU m4 is an implementation of the traditional Unix macro processor.  It
+ is mostly SVR4 compatible although it has some extensions (for example,
+ handling more than 9 positional parameters to macros). GNU M4 also has
+ built-in functions for including files, running shell commands, doing
+ arithmetic, etc.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3
+Architecture: i586
+OE: m4
+Homepage: unknown
+Depends: m4 (= 1.4.16-r4)
+Recommends: uclibc-librt-dev, libgcc-s-dev, libc-dev
+Source: ftp://ftp.gnu.org/gnu/m4/m4-1.4.16.tar.gz file://ac_config_links.patch file://remove-gets.patch

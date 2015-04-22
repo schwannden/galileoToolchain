@@ -1,0 +1,14 @@
+Package: libgdbm-dbg
+Version: 1.10-r3
+Description: gdbm version 1.10-r3 - Debugging files
+ GNU dbm is a set of database routines that use extensible hashing.  This
+ package contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3
+Architecture: i586
+OE: gdbm
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: libgdbm4 (= 1.10-r3), libc-dbg, libgcc-s-dbg
+Source: ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz

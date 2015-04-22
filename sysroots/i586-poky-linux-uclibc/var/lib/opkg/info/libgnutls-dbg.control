@@ -1,0 +1,14 @@
+Package: libgnutls-dbg
+Version: 2.12.23-r8.4
+Description: gnutls version 2.12.23-r8.4 - Debugging files
+ GNU Transport Layer Security Library  This package contains ELF symbols
+ and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+ & LGPLv2.1+
+Architecture: i586
+OE: gnutls
+Homepage: http://www.gnu.org/software/gnutls/
+Recommends: gnutls-extra-dbg, uclibc-libm-dbg, libreadline-dbg, libstdc++-dbg, libgcc-s-dbg, libtasn1-dbg, liblzo2-dbg, libgpg-error-dbg, libc-dbg, libz-dbg, libgnutls26 (= 2.12.23-r8.4), libcap-dbg, uclibc-libpthread-dbg, libgcrypt-dbg
+Source: ftp://ftp.gnutls.org/gcrypt/gnutls/v2.12/gnutls-2.12.23.tar.bz2 file://gnutls-openssl.patch file://correct_rpl_gettimeofday_signature.patch file://configure-fix.patch file://avoid_AM_PROG_MKDIR_P_warning_error_with_automake_1.12.patch file://fix-gettext-version.patch

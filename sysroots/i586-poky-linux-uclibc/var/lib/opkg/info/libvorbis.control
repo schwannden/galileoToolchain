@@ -1,0 +1,15 @@
+Package: libvorbis
+Version: 1.3.3-r1
+Description: Ogg Vorbis Audio Codec
+ Ogg Vorbis is a high-quality lossy audio codec that is free of
+ intellectual property restrictions. libvorbis is the main vorbis codec
+ library.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: libvorbis
+Homepage: http://xiph.org/
+Depends: libgcc1 (>= 4.7.2), libogg0 (>= 1.3.0), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://downloads.xiph.org/releases/vorbis/libvorbis-1.3.3.tar.gz file://obsolete_automake_macros.patch

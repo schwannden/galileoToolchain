@@ -1,0 +1,16 @@
+Package: e2fsprogs-dbg
+Version: 1.42.7-r0
+Description: Ext2 Filesystem Utilities - Debugging files
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2 & BSD & MIT
+Architecture: i586
+OE: e2fsprogs
+Homepage: http://e2fsprogs.sourceforge.net/
+Recommends: uclibc-libdl-dbg, libgcc-s-dbg, libcomerr-dbg, e2fsprogs (= 1.42.7-r0), uclibc-backtrace-dbg, libc-dbg, util-linux-libuuid-dbg, libext2fs-dbg, libe2p-dbg, libss-dbg, uclibc-libpthread-dbg, util-linux-libblkid-dbg
+Source: http://downloads.sourceforge.net/e2fsprogs/e2fsprogs-1.42.7.tar.gz file://mkdir.patch file://acinclude.m4 file://remove.ldconfig.call.patch

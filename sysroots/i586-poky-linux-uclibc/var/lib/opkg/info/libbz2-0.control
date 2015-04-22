@@ -1,0 +1,17 @@
+Package: libbz2-0
+Version: 1.0.6-r5
+Description: Very high-quality data compression program.
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding. Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: bzip2
+Architecture: i586
+OE: bzip2
+Homepage: http://www.bzip.org/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz file://configure.ac file://Makefile.am

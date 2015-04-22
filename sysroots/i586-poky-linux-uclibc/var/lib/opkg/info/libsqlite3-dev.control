@@ -1,0 +1,14 @@
+Package: libsqlite3-dev
+Version: 3071502-r0
+Description: sqlite3 version 3071502-r0
+ An Embeddable SQL Database Engine
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: PD
+Architecture: i586
+OE: sqlite3
+Homepage: http://www.sqlite.org
+Depends: libsqlite3-0
+Recommends: libgcc-s-dev, uclibc-libpthread-dev, ncurses-dev, uclibc-libdl-dev, libreadline-dev, libc-dev
+Source: http://www.sqlite.org/sqlite-autoconf-3071502.tar.gz

@@ -1,0 +1,13 @@
+Package: dosfstools
+Version: 2.11-r5
+Description: DOS FAT Filesystem Utilities
+ DOS FAT Filesystem Utilities
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: dosfstools
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools/dosfstools-2.11.src.tar.gz file://mkdosfs-bootcode.patch file://mkdosfs-dir.patch file://alignment_hack.patch file://msdos_fat12_undefined.patch file://dosfstools-msdos_fs-types.patch file://include-linux-types.patch file://nofat32_autoselect.patch file://fix_populated_dosfs_creation.patch

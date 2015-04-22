@@ -1,0 +1,13 @@
+Package: libgmpxx4
+Version: 5.1.0-r2
+Description: gmp version 5.1.0-r2
+ GNU multiprecision arithmetic library
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv3&GPLv3
+Architecture: i586
+OE: gmp
+Homepage: http://gmplib.org/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libgmp10 (>= 5.1.0), libstdc++6 (>= 4.7.2)
+Source: ftp://ftp.gmplib.org/pub/gmp-5.1.0/gmp-5.1.0a.tar.bz2 file://configure.patch file://amd64.patch file://use-includedir.patch file://gmp_fix_for_x32.patch file://187b7b1646ee.patch file://obsolete_automake_macros.patch

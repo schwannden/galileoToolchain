@@ -1,0 +1,16 @@
+Package: python-numpy-dev
+Version: 1.7.0-r0
+Description: python-numpy version 1.7.0-r0 - Development files
+ A sophisticated Numeric Processing Package for Python  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: PSF
+Architecture: i586
+OE: python-numpy
+Homepage: unknown
+Depends: python-numpy (= 1.7.0-r0)
+Recommends: python-datetime-dev, libgcc-s-dev, uclibc-libm-dev, python-pkgutil-dev, python-subprocess-dev, python-dev, python-pickle-dev, python-pydoc-dev, python-pprint-dev, python-difflib-dev, python-misc-dev, python-distutils-dev, python-numbers-dev, python-nose-dev, python-unittest-dev, python-netclient-dev, python-mmap-dev, python-compression-dev, python-email-dev, python-shell-dev, python-doctest-dev, libc-dev
+Source: http://downloads.sourceforge.net/numpy/numpy-1.7.0.tar.gz file://config.h file://numpyconfig.h

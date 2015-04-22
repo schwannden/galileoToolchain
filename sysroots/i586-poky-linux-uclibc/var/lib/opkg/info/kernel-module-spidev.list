@@ -1,0 +1,6 @@
+/lib/modules/
+/lib/modules/3.8.7-yocto-standard/kernel/
+/lib/modules/3.8.7-yocto-standard/kernel/drivers/spi/spidev.ko
+/lib/modules/3.8.7-yocto-standard/kernel/drivers/
+/lib/modules/3.8.7-yocto-standard/
+/lib/modules/3.8.7-yocto-standard/kernel/drivers/spi/

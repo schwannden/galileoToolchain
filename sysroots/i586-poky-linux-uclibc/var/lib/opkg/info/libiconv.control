@@ -1,0 +1,14 @@
+Package: libiconv
+Version: 1.14-r1
+Description: libiconv version 1.14-r1
+ GNU libiconv - libiconv is for you if your application needs to support
+ multiple character encodings, but that support lacks from your system.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv3
+Architecture: i586
+OE: libiconv
+Homepage: http://www.gnu.org/software/libiconv
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.gnu.org/gnu/libiconv/libiconv-1.14.tar.gz file://autoconf.patch file://add-relocatable-module.patch

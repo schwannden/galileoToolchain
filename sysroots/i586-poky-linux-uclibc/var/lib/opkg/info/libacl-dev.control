@@ -1,0 +1,14 @@
+Package: libacl-dev
+Version: 2.2.51-r3
+Description: acl version 2.2.51-r3
+ utilities for access control list
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1+ & GPLv2+
+Architecture: i586
+OE: acl
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: libacl1
+Recommends: libattr-dev, attr-dev, libgcc-s-dev, libc-dev
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.51.src.tar.gz file://relative-libdir.patch;striplevel=0

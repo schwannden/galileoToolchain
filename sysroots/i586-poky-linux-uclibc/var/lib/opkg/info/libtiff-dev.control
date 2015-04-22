@@ -1,0 +1,16 @@
+Package: libtiff-dev
+Version: 4.0.3-r0
+Description: tiff version 4.0.3-r0 - Development files
+ This software provides support for the Tag Image File Format (TIFF)  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD-2-Clause
+Architecture: i586
+OE: tiff
+Homepage: http://www.remotesensing.org/libtiff/
+Depends: libtiff5 (= 4.0.3-r0)
+Recommends: libgcc-s-dev, uclibc-libpthread-dev, libjpeg-dev, libz-dev, liblzma-dev, uclibc-libm-dev, libc-dev, xz-dev
+Source: ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.3.tar.gz file://libtool2.patch

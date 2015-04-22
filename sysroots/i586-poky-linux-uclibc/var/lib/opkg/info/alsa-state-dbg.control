@@ -1,0 +1,15 @@
+Package: alsa-state-dbg
+Version: 0.2.0-r3
+Description: Alsa scenario files to enable alsa state restoration. - Debugging files
+ Alsa Scenario Files - an init script and state files to restore sound
+ state at system boot and save it at system shut down.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: alsa-state
+Homepage: unknown
+Recommends: alsa-state (= 0.2.0-r3)
+Source: file://asound.conf file://asound.state file://alsa-state

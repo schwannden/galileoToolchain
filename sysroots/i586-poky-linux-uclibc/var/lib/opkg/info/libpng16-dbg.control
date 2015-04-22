@@ -1,0 +1,14 @@
+Package: libpng16-dbg
+Version: 1.6.0-r0
+Description: PNG Library - Debugging files
+ PNG Library  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: Libpng
+Architecture: i586
+OE: libpng
+Homepage: http://www.libpng.org/
+Recommends: libc-dbg, libz-dbg, libgcc-s-dbg, libpng16-16 (= 1.6.0-r0), uclibc-libm-dbg
+Source: http://downloads.sourceforge.net/project/libpng/libpng16/1.6.0/libpng-1.6.0.tar.xz

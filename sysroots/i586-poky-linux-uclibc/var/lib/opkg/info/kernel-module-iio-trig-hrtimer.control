@@ -1,0 +1,13 @@
+Package: kernel-module-iio-trig-hrtimer
+Version: 3.8-r0
+Description: linux-yocto-clanton version 3.8-r0
+ iio-trig-hrtimer kernel module; Hrtimer trigger for the iio subsystem
+Section: kernel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: clanton
+OE: linux-yocto-clanton
+Homepage: unknown
+Depends: kernel-3.8.7-yocto-standard, kernel-module-industrialio
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y file://quark.cfg file://clanton-standard.scc file://0001-tty-don-t-deadlock-while-flushing-workqueue-quark.patch file://0002-driver-core-constify-data-for-class_find_devic-quark.patch file://0003-TTY-mark-tty_get_device-call-with-the-proper-c-quark.patch file://0004-pwm-Add-sysfs-interface-quark.patch file://0005-drivers-pwm-sysfs.c-add-export.h-RTC-50404-quark.patch file://0006-core-Quark-patch-quark.patch file://0007-Quark-Platform-Code-quark.patch file://0008-Quark-UART-quark.patch file://0009-EFI-capsule-update-quark.patch file://0010-Quark-SDIO-host-controller-quark.patch file://0011-Quark-USB-host-quark.patch file://0012-USB-gadget-serial-quark.patch file://0013-Quark-stmmac-Ethernet-quark.patch file://0014-Quark-GPIO-2-2-quark.patch file://0015-Quark-GPIO-1-2-quark.patch file://0016-Quark-GIP-Cypress-I-O-expander-quark.patch file://0017-Quark-I2C-quark.patch file://0018-Quark-sensors-quark.patch file://0019-Quark-SC-SPI-quark.patch file://0020-Quark-IIO-quark.patch file://0021-Quark-SPI-flash-quark.patch file://uart-1.0.patch file://GAL-118-USBDeviceResetOnSUSRES-2.patch

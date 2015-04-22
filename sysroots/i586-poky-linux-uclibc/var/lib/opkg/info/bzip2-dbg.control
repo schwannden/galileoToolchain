@@ -1,0 +1,18 @@
+Package: bzip2-dbg
+Version: 1.0.6-r5
+Description: Very high-quality data compression program. - Debugging files
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding. Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: bzip2
+Architecture: i586
+OE: bzip2
+Homepage: http://www.bzip.org/
+Recommends: libbz2-dbg, bzip2 (= 1.0.6-r5), libgcc-s-dbg, libc-dbg
+Source: http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz file://configure.ac file://Makefile.am

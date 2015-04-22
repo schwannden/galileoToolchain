@@ -1,0 +1,14 @@
+Package: python-numpy-dbg
+Version: 1.7.0-r0
+Description: python-numpy version 1.7.0-r0 - Debugging files
+ A sophisticated Numeric Processing Package for Python  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: PSF
+Architecture: i586
+OE: python-numpy
+Homepage: unknown
+Recommends: python-numpy (= 1.7.0-r0), libc-dbg, libgcc-s-dbg, uclibc-libm-dbg
+Source: http://downloads.sourceforge.net/numpy/numpy-1.7.0.tar.gz file://config.h file://numpyconfig.h

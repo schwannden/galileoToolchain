@@ -1,0 +1,16 @@
+Package: libgnutls-dev
+Version: 2.12.23-r8.4
+Description: gnutls version 2.12.23-r8.4 - Development files
+ GNU Transport Layer Security Library  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+ & LGPLv2.1+
+Architecture: i586
+OE: gnutls
+Homepage: http://www.gnu.org/software/gnutls/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libgnutlsxx27, libgnutls26 (= 2.12.23-r8.4), libgnutls26 (>= 2.12.23), libgnutls-extra26, libgnutls-openssl27
+Recommends: gnutls-openssl-dev, libgcc-s-dev, uclibc-libpthread-dev, libz-dev, gnutls-extra-dev, liblzo2-dev, libtasn1-dev, libreadline-dev, libstdc++-dev, uclibc-libm-dev, libc-dev, libcap-dev, libgpg-error-dev, libgcrypt-dev, gnutls-xx-dev
+Source: ftp://ftp.gnutls.org/gcrypt/gnutls/v2.12/gnutls-2.12.23.tar.bz2 file://gnutls-openssl.patch file://correct_rpl_gettimeofday_signature.patch file://configure-fix.patch file://avoid_AM_PROG_MKDIR_P_warning_error_with_automake_1.12.patch file://fix-gettext-version.patch

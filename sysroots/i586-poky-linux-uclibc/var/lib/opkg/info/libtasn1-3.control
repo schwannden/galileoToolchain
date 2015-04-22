@@ -1,0 +1,13 @@
+Package: libtasn1-3
+Version: 2.14-r1
+Description: libtasn1 version 2.14-r1
+ Library for ASN.1 and DER manipulation
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1+
+Architecture: i586
+OE: libtasn1
+Homepage: http://www.gnu.org/software/libtasn1/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.gnu.org/gnu/libtasn1/libtasn1-2.14.tar.gz file://libtasn1_fix_for_automake_1.12.patch file://dont-depend-on-help2man.patch

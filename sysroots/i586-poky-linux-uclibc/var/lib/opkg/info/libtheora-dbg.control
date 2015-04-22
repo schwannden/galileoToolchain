@@ -1,0 +1,15 @@
+Package: libtheora-dbg
+Version: 1.1.1-r1
+Description: Theora Video Codec - Debugging files
+ The libtheora reference implementation provides the standard encoder and
+ decoder under a BSD license.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: libtheora
+Homepage: http://xiph.org/
+Recommends: libogg-dbg, libgcc-s-dbg, libc-dbg, libtheora (= 1.1.1-r1)
+Source: http://downloads.xiph.org/releases/theora/libtheora-1.1.1.tar.bz2 file://no-docs.patch

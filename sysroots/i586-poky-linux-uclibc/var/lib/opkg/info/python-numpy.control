@@ -1,0 +1,13 @@
+Package: python-numpy
+Version: 1.7.0-r0
+Description: python-numpy version 1.7.0-r0
+ A sophisticated Numeric Processing Package for Python
+Section: devel/python
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: PSF
+Architecture: i586
+OE: python-numpy
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), python-email, python-pickle, python-pprint, python-distutils, python-mmap, python-netclient, python-doctest, python-shell, python-difflib, python-datetime, python-pkgutil, libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), python-nose, python-pydoc, python-misc, python-subprocess, python-numbers, python-unittest, python-compression
+Source: http://downloads.sourceforge.net/numpy/numpy-1.7.0.tar.gz file://config.h file://numpyconfig.h

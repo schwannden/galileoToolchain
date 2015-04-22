@@ -1,0 +1,15 @@
+Package: libmpfr-dbg
+Version: 3.1.1-r0
+Description: mpfr version 3.1.1-r0 - Debugging files
+ A C library for multiple-precision floating-point computations with exact
+ rounding  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3&LGPLv3
+Architecture: i586
+OE: mpfr
+Homepage: http://www.mpfr.org/
+Recommends: libc-dbg, libgcc-s-dbg, libmpfr4 (= 3.1.1-r0), libgmp-dbg
+Source: http://www.mpfr.org/mpfr-3.1.1/mpfr-3.1.1.tar.bz2 file://long-long-thumb.patch

@@ -1,0 +1,15 @@
+Package: libglib-2.0-0
+Version: 1:2.34.3-r2
+Description: A general-purpose utility library
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2+ & BSD & PD
+Architecture: i586
+OE: glib-2.0
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), libffi6 (>= 3.0.11), libdl0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libz1 (>= 1.2.7), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libiconv (>= 1.14), gettext-runtime (>= 0.18.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), librt0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://ftp.gnome.org/pub/GNOME/sources/glib/2.34/glib-2.34.3.tar.xz file://configure-libtool.patch file://glib-2.0_fix_for_x32.patch file://obsolete_automake_macros.patch file://fix-conflicting-rand.patch file://Makefile-ptest.patch file://run-ptest

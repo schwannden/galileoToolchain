@@ -1,0 +1,14 @@
+Package: python-dbus
+Version: 1.1.1-r2
+Description: python-dbus version 1.1.1-r2
+ Python bindings for DBus, a socket-based message bus system for
+ interprocess communication
+Section: devel/python
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: python-dbus
+Homepage: http://www.freedesktop.org/Software/dbus
+Depends: libgcc1 (>= 4.7.2), libdbus-glib-1-2 (>= 0.100.2), python-xml, python-threading, gettext-runtime (>= 0.18.2), libdbus-1-3 (>= 1.6.8), libffi6 (>= 3.0.11), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libiconv (>= 1.14), libdl0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), python-io, libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), python-logging, libglib-2.0-0 (>= 2.34.3), libz1 (>= 1.2.7), librt0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), python-stringold
+Source: http://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.1.1.tar.gz file://obsolete_automake_macros.patch

@@ -1,0 +1,23 @@
+Package: gettext
+Version: 0.18.2-r0
+Description: Utilities and libraries for producing multi-lingual messages.
+ Gettext offers to programmers, translators, and even users, a well
+ integrated set of tools and documentation. Specifically, the GNU
+ `gettext' utilities are a set of tools that provides a framework to help
+ other GNU packages produce multi-lingual messages. These tools include a
+ set of conventions about how programs should be written to support
+ message catalogs, a directory and file naming organization for the
+ message catalogs themselves, a runtime library supporting the retrieval
+ of translated messages, and a few stand-alone programs to massage in
+ various ways the sets of translatable strings, or already translated
+ strings.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+ & LGPL-2.1+
+Architecture: i586
+OE: gettext
+Homepage: http://www.gnu.org/software/gettext/gettext.html
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libdl0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libgettextlib (>= 0.18.2), libiconv (>= 1.14), gettext-runtime (>= 0.18.2), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libgettextsrc (>= 0.18.2), librt0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Conflicts: proxy-libintl
+Source: ftp://ftp.gnu.org/gnu/gettext/gettext-0.18.2.tar.gz file://parallel.patch

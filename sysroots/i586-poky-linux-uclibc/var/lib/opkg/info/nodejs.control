@@ -1,0 +1,13 @@
+Package: nodejs
+Version: 0.8.18-r0
+Description: nodejs version 0.8.18-r0
+ nodeJS Evented I/O for V8 JavaScript
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT & BSD
+Architecture: i586
+OE: nodejs
+Homepage: http://nodejs.org
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), python-textutils, python-shell, python-datetime, libdl0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libstdc++6 (>= 4.7.2), python-crypt, curl, python-subprocess, python-netclient, librt0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://nodejs.org/dist/v0.8.18/node-v0.8.18.tar.gz file://0001-gcc-has-a-builtin-define-to-denote-hard-abi-when-in-.patch

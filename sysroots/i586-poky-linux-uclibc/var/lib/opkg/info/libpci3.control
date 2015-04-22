@@ -1,0 +1,14 @@
+Package: libpci3
+Version: 3.1.10-r0
+Description: PCI Utilities
+ The PCI Utilities package contains a library for portable access to PCI
+ bus configuration space and several utilities based on this library.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: pciutils
+Homepage: http://atrey.karlin.mff.cuni.cz/~mj/pciutils.shtml
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libz1 (>= 1.2.7), libresolv0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://kernel.org/pub/software/utils/pciutils/pciutils-3.1.10.tar.bz2 file://configure.patch file://pcimodules-pciutils.diff file://lib-build-fix.patch file://guess-fix.patch file://makefile.patch

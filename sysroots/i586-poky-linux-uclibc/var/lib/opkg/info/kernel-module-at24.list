@@ -1,0 +1,3 @@
+/lib/modules/3.8.7-yocto-standard/kernel/drivers/misc/eeprom/
+/lib/modules/3.8.7-yocto-standard/kernel/drivers/misc/
+/lib/modules/3.8.7-yocto-standard/kernel/drivers/misc/eeprom/at24.ko

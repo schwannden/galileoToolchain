@@ -1,0 +1,14 @@
+Package: alsa-lib-dbg
+Version: 1.0.26-r0
+Description: alsa-lib version 1.0.26-r0 - Debugging files
+ Alsa sound library  This package contains ELF symbols and related sources
+ for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1 & GPLv2+
+Architecture: i586
+OE: alsa-lib
+Homepage: http://www.alsa-project.org
+Recommends: uclibc-libdl-dbg, uclibc-libm-dbg, alsa-lib (= 1.0.26-r0), libgcc-s-dbg, libc-dbg, uclibc-librt-dbg, libasound-dbg, uclibc-libpthread-dbg
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.26.tar.bz2 file://fix-tstamp-declaration.patch file://obsolete_automake_macros.patch

@@ -1,0 +1,13 @@
+Package: opencv
+Version: 2.4.3-r2
+Description: opencv version 2.4.3-r2
+ Opencv : The Open Computer Vision Library
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: opencv
+Homepage: http://opencv.willowgarage.com/wiki/
+Depends: python-core
+Source: https://github.com/Itseez/opencv/archive/2.4.3.tar.gz file://opencv-fix-pkgconfig-generation.patch

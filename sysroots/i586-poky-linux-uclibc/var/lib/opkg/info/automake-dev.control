@@ -1,0 +1,17 @@
+Package: automake-dev
+Version: 1.12.6-r0
+Description: A GNU tool for automatically generating Makefiles. - Development files
+ Automake is a tool for automatically generating `Makefile.in' files
+ compliant with the GNU Coding Standards. Automake requires the use of
+ Autoconf.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: automake
+Homepage: http://www.gnu.org/software/automake/
+Depends: automake (= 1.12.6-r0)
+Recommends: autoconf-dev, perl-module-threads-dev, perl-module-vars-dev, perl-dev, perl-module-data-dumper-dev, perl-module-strict-dev, perl-module-thread-queue-dev, perl-module-text-parsewords-dev, perl-module-bytes-dev
+Source: ftp://ftp.gnu.org/gnu/automake/automake-1.12.6.tar.gz file://path_prog_fixes.patch file://prefer-cpio-over-pax-for-ustar-archives.patch file://python-libdir.patch file://py-compile-compile-only-optimized-byte-code.patch file://buildtest.patch

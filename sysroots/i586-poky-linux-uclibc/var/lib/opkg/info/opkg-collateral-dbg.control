@@ -1,0 +1,14 @@
+Package: opkg-collateral-dbg
+Version: 1.0-r2
+Description: opkg-collateral version 1.0-r2 - Debugging files
+ opkg configuration files  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: opkg-collateral
+Homepage: unknown
+Recommends: opkg-collateral (= 1.0-r2)
+Source: file://opkg.conf.comments file://dest file://src

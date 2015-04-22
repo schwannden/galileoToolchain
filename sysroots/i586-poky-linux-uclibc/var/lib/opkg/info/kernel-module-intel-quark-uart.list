@@ -1,0 +1,3 @@
+/lib/modules/3.8.7-yocto-standard/kernel/drivers/tty/serial/
+/lib/modules/3.8.7-yocto-standard/kernel/drivers/tty/serial/intel_quark_uart.ko
+/lib/modules/3.8.7-yocto-standard/kernel/drivers/tty/

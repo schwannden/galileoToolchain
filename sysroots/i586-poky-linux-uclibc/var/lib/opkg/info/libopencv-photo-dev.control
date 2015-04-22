@@ -1,0 +1,14 @@
+Package: libopencv-photo-dev
+Version: 2.4.3-r2
+Description: opencv version 2.4.3-r2
+ OpenCV opencv-photo development package
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: opencv
+Homepage: http://opencv.willowgarage.com/wiki/
+Depends: libopencv-photo2.4, opencv-dev
+Recommends: bzip2-dev, python-numpy-dev, libgcc-s-dev, uclibc-libpthread-dev, libjpeg-dev, libav-dev, libpng16-dev, libglib-2.0-dev, v4l-utils-dev, libstdc++-dev, libopencv-imgproc-dev, uclibc-libm-dev, libc-dev, libz-dev, libtool-dev, swig-dev, libopencv-core-dev, python-dev, libtiff-dev
+Source: https://github.com/Itseez/opencv/archive/2.4.3.tar.gz file://opencv-fix-pkgconfig-generation.patch

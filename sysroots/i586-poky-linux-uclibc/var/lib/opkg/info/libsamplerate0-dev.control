@@ -1,0 +1,16 @@
+Package: libsamplerate0-dev
+Version: 0.1.8-r1
+Description: libsamplerate0 version 0.1.8-r1 - Development files
+ An audio Sample Rate Conversion library  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: libsamplerate0
+Homepage: unknown
+Depends: libsamplerate0 (= 0.1.8-r1)
+Recommends: flac-dev, libgcc-s-dev, libsndfile-dev, libc-dev, uclibc-libm-dev
+Source: http://www.mega-nerd.com/SRC/libsamplerate-0.1.8.tar.gz

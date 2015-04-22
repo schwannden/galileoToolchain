@@ -1,0 +1,16 @@
+Package: libgcrypt-dev
+Version: 1.5.0-r2
+Description: libgcrypt version 1.5.0-r2 - Development files
+ A general purpose cryptographic library based on the code from GnuPG
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: i586
+OE: libgcrypt
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libgcrypt11 (= 1.5.0-r2)
+Recommends: libgpg-error-dev, libgcc-s-dev, libc-dev, libcap-dev
+Source: ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.5.0.tar.gz file://add-pkgconfig-support.patch file://obsolete_automake_macros.patch

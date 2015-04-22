@@ -1,0 +1,13 @@
+Package: quark-init
+Version: 0.1-r0
+Description: quark-init version 0.1-r0
+ List of drivers to be auto-loaded
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: quark-init
+Homepage: unknown
+Recommends: update-rc.d
+Source: file://quark-init.sh file://galileo.conf file://galileo_gen2.conf

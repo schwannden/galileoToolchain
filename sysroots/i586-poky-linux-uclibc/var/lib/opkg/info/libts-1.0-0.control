@@ -1,0 +1,17 @@
+Package: libts-1.0-0
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Description: An abstraction layer for touchscreen panel events.
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events. Tslib is generally
+ used on embedded devices to provide a common user space interface to
+ touchscreen functionality.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2
+Architecture: i586
+OE: tslib
+Homepage: http://tslib.berlios.de/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), tslib-conf, libdl0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Recommends: pointercal
+Source: git://github.com/kergoth/tslib.git;protocol=git file://obsolete_automake_macros.patch file://ts.conf file://tslib.sh

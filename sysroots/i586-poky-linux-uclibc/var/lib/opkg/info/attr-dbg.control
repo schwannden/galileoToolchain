@@ -1,0 +1,14 @@
+Package: attr-dbg
+Version: 2.4.46-r4
+Description: attr version 2.4.46-r4 - Debugging files
+ utilities for manipulating filesystem extended attributes  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1+ & GPLv2+
+Architecture: i586
+OE: attr
+Homepage: http://savannah.nongnu.org/projects/attr/
+Recommends: libc-dbg, libgcc-s-dbg, attr (= 2.4.46-r4), libattr-dbg
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.46.src.tar.gz file://generic-syscalls.patch file://relative-libdir.patch;striplevel=0

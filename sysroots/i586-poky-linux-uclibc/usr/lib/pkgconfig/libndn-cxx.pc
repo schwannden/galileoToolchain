@@ -1,0 +1,10 @@
+prefix=/opt/ndn/sysroots/i586-poky-linux-uclibc/usr
+exec_prefix=/opt/ndn/sysroots/i586-poky-linux-uclibc/usr
+libdir=/opt/ndn/sysroots/i586-poky-linux-uclibc/usr/lib
+includedir=/opt/ndn/sysroots/i586-poky-linux-uclibc/usr/include
+
+Name: libndn-cxx
+Description: NDN C++ library with eXperimental eXtensions
+Version: 0.3.1
+Libs: -L${libdir}  -L/opt/ndn/sysroots/i586-poky-linux-uclibc/usr/lib -L/opt/ndn/sysroots/i586-poky-linux-uclibc/lib -lndn-cxx -lboost_system-mt -lboost_filesystem-mt -lboost_date_time-mt -lboost_iostreams-mt -lboost_regex-mt -lboost_program_options-mt -lboost_chrono-mt -lboost_random-mt -lcryptopp -lsqlite3 -lrt -lpthread 
+Cflags: -I${includedir} -fPIC -I/opt/ndn/sysroots/i586-poky-linux-uclibc/usr/include/ -I/opt/ndn/sysroots/i586-poky-linux-uclibc/include

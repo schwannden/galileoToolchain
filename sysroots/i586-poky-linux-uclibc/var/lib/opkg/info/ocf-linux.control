@@ -1,0 +1,12 @@
+Package: ocf-linux
+Version: 20120127-r3.0
+Description: ocf-linux version 20120127-r3.0
+ Install required headers to enable OCF Linux support
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: ocf-linux
+Homepage: unknown
+Source: http://sourceforge.net/projects/ocf-linux/files/ocf-linux/20120127/ocf-linux-20120127.tar.gz

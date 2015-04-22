@@ -1,0 +1,13 @@
+Package: libv4l-dbg
+Version: 0.8.8-r2
+Description: v4l-utils version 0.8.8-r2
+ v4l2 and IR applications
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2.1
+Architecture: i586
+OE: v4l-utils
+Homepage: unknown
+Recommends: uclibc-libdl-dbg, libiconv-dbg, uclibc-argp-dbg, libjpeg-dbg, uclibc-libm-dbg, libstdc++-dbg, libgcc-s-dbg, libc-dbg, uclibc-librt-dbg, uclibc-libpthread-dbg
+Source: git://linuxtv.org/v4l-utils.git;protocol=git file://openat.patch file://uclibc-enable.patch

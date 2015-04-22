@@ -1,0 +1,579 @@
+Package: linux-firmware-ar9170
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-atheros-license
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 77581d0506bfaedc9820ad5fcbf8038c
+Size: 48314
+Filename: linux-firmware-ar9170_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-ath6k
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-atheros-license
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2c9b62ac2c8d9915ea8365220e84d967
+Size: 712592
+Filename: linux-firmware-ath6k_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-atheros_firmware
+Priority: optional
+
+Package: linux-firmware-ath9k
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-atheros-license
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ee43e14fee5bda0853fe5ffe7bf5f387
+Size: 170004
+Filename: linux-firmware-ath9k_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-atheros_firmware
+Priority: optional
+
+Package: linux-firmware-atheros-license
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e06b8ab4bce71bd49c38228b474ac857
+Size: 1904
+Filename: linux-firmware-atheros-license_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-bcm4329
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: update-alternatives-cworth, linux-firmware-broadcom-license
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ff0d22c7bffa0dba833c2162bdc5fe7a
+Size: 177804
+Filename: linux-firmware-bcm4329_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-bcm4329
+Priority: optional
+
+Package: linux-firmware-bcm4330
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: update-alternatives-cworth, linux-firmware-broadcom-license
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 004345d63bbe3979313292e4a8f9325e
+Size: 143302
+Filename: linux-firmware-bcm4330_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-bcm4330
+Priority: optional
+
+Package: linux-firmware-bcm4334
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: update-alternatives-cworth, linux-firmware-broadcom-license
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ded5d77034640c89f9f2a634d0c9fc17
+Size: 318488
+Filename: linux-firmware-bcm4334_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-bcm4334
+Priority: optional
+
+Package: linux-firmware-broadcom-license
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 993baafabdbf94147c792dc026ac56de
+Size: 2828
+Filename: linux-firmware-broadcom-license_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-dbg
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Recommends: linux-firmware (= 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1)
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d0c14034e56521eada7321b92f35d727
+Size: 814
+Filename: linux-firmware-dbg_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1 - Debugging
+ files  Firmware files for use with Linux kernel  This package contains
+ ELF   symbols and related sources for debugging purposes.
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-dev
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware (= 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1)
+Recommends: update-alternatives-cworth-dev, linux-firmware-bcm4334-dev, linux-firmware-iwlwifi-6000g2b-6-dev, linux-firmware-wl12xx-dev, linux-firmware-rtl8192su-dev, linux-firmware-ath9k-dev, linux-firmware-vt6656-dev, linux-firmware-bcm4329-dev, linux-firmware-iwlwifi-6000g2a-5-dev, linux-firmware-bcm4330-dev, linux-firmware-iwlwifi-135-6-dev, linux-firmware-iwlwifi-licence-dev, linux-firmware-rtl-license-dev, linux-firmware-iwlwifi-6000g2a-6-dev, linux-firmware-atheros-license-dev, linux-firmware-ath6k-dev, linux-firmware-sd8686-dev, linux-firmware-rtl8192cu-dev, linux-firmware-broadcom-license-dev, linux-firmware-ar9170-dev, linux-firmware-ralink-dev, linux-firmware-rtl8192ce-dev
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 29ee2d165d4ae999ef6e19cbb7a4dd64
+Size: 990
+Filename: linux-firmware-dev_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1 - Development
+ files  Firmware files for use with Linux kernel  This package contains
+ symbolic   links, header files, and related items necessary for software
+ development.
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-iwlwifi-135-6
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-iwlwifi-licence
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 424c40b4578c1453d84e16ced5cdcf04
+Size: 342462
+Filename: linux-firmware-iwlwifi-135-6_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-iwlwifi-6000g2a-5
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-iwlwifi-licence
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 29fb7dfab374fe43bd1aae943e526702
+Size: 208646
+Filename: linux-firmware-iwlwifi-6000g2a-5_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-iwlwifi-6000g2a-6
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-iwlwifi-licence
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ee6e043868cc618b3f2b6b255e081d76
+Size: 324816
+Filename: linux-firmware-iwlwifi-6000g2a-6_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-iwlwifi-6000g2b-6
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-iwlwifi-licence
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e977ee59f09b2c12dca093c07df97aeb
+Size: 328540
+Filename: linux-firmware-iwlwifi-6000g2b-6_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-iwlwifi-licence
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f1fcb3f6896b62b53883e7bce892ea57
+Size: 1960
+Filename: linux-firmware-iwlwifi-licence_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-ralink
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 710ed798c57db3d1d366d32bf2e4c3b1
+Size: 13514
+Filename: linux-firmware-ralink_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-ralink
+Priority: optional
+
+Package: linux-firmware-rtl-license
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 5270db065647fe606b37a5e7877231b4
+Size: 1970
+Filename: linux-firmware-rtl-license_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: linux-firmware-rtl8192ce
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-rtl-license
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6563ab49c2134ed83fac3403695d5e6e
+Size: 7556
+Filename: linux-firmware-rtl8192ce_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-rtlwifi
+Priority: optional
+
+Package: linux-firmware-rtl8192cu
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-rtl-license
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d3adf51c2220c55b4f643bb65cfa7ff2
+Size: 8650
+Filename: linux-firmware-rtl8192cu_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-rtlwifi
+Priority: optional
+
+Package: linux-firmware-rtl8192su
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 067aada17081d8bc0b7445c70bbebff9
+Size: 63872
+Filename: linux-firmware-rtl8192su_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-rtlwifi
+Priority: optional
+
+Package: linux-firmware-sd8686
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6f77f094918e07b9ed4d0e8cb3841f66
+Size: 91146
+Filename: linux-firmware-sd8686_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-libertas
+Priority: optional
+
+Package: linux-firmware-vt6656
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: edb76d42be9cd2ce28c620399d8c0fb6
+Size: 5868
+Filename: linux-firmware-vt6656_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-via_vt6656
+Priority: optional
+
+Package: linux-firmware-wl12xx
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: eef240a9e99c4547655b6e7bc5499223
+Size: 3897250
+Filename: linux-firmware-wl12xx_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Firmware-ti-connectivity
+Priority: optional
+
+Package: linux-firmware
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Depends: linux-firmware-iwlwifi-licence, linux-firmware-rtl8192ce, linux-firmware-bcm4334, linux-firmware-bcm4329, linux-firmware-rtl8192su, linux-firmware-wl12xx, linux-firmware-rtl-license, linux-firmware-ralink, linux-firmware-iwlwifi-135-6, linux-firmware-ath6k, linux-firmware-rtl8192cu, linux-firmware-ath9k, linux-firmware-vt6656, linux-firmware-sd8686, linux-firmware-iwlwifi-6000g2b-6, linux-firmware-ar9170, linux-firmware-atheros-license, linux-firmware-iwlwifi-6000g2a-6, linux-firmware-bcm4330, linux-firmware-iwlwifi-6000g2a-5, linux-firmware-broadcom-license
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 18c26b6fde6b8e4ec61427a3d2a4503e
+Size: 23586518
+Filename: linux-firmware_0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1_all.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git
+Description:  linux-firmware version
+ 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1  Firmware
+ files for use with Linux kernel
+OE: linux-firmware
+HomePage: unknown
+License: Proprietary
+Priority: optional
+
+Package: nativesdk-packagegroup-sdk-host
+Version: 1.0-r11
+Depends: nativesdk-autoconf, nativesdk-libtool, nativesdk-unfs-server, nativesdk-automake, nativesdk-qemu, nativesdk-pkgconfig, nativesdk-pseudo, nativesdk-qemu-helper, nativesdk-opkg
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 526709408dd2183426c1b82a612f0fd9
+Size: 718
+Filename: nativesdk-packagegroup-sdk-host_1.0-r11_all.ipk
+Source: None
+Description:  Host packages for the standalone SDK or external toolchain  Host packages
+ for the standalone SDK or external toolchain
+OE: nativesdk-packagegroup-sdk-host
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-standalone-sdk-target-dbg
+Version: 1.0-r8
+Provides: task-core-standalone-sdk-target-dbg
+Replaces: task-core-standalone-sdk-target-dbg
+Conflicts: task-core-standalone-sdk-target-dbg
+Recommends: libstdc++-dbg, packagegroup-core-standalone-sdk-target (= 1.0-r8), libgcc-s-dbg, libc-dbg, uclibc-thread-db-dbg
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: dc7cb2961b757929b111cb6e8aacf5bf
+Size: 788
+Filename: packagegroup-core-standalone-sdk-target-dbg_1.0-r8_all.ipk
+Source: None
+Description:  packagegroup-core-standalone-sdk-target version 1.0-r8 - Debugging files
+ Target packages for the standalone SDK  This package contains ELF symbols
+ and related sources for debugging purposes.
+OE: packagegroup-core-standalone-sdk-target
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-standalone-sdk-target-dev
+Version: 1.0-r8
+Depends: packagegroup-core-standalone-sdk-target (= 1.0-r8)
+Recommends: uclibc-thread-db-dev, libgcc-s-dev, libc-dev, libstdc++-dev
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: c86c715556adbdbc84f943f14131f29b
+Size: 778
+Filename: packagegroup-core-standalone-sdk-target-dev_1.0-r8_all.ipk
+Source: None
+Description:  packagegroup-core-standalone-sdk-target version 1.0-r8 - Development
+ files  Target packages for the standalone SDK  This package contains
+ symbolic   links, header files, and related items necessary for software
+ development.
+OE: packagegroup-core-standalone-sdk-target
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-standalone-sdk-target
+Version: 1.0-r8
+Depends: libgcc1, libgcc-s-dev, libstdc++-dev, libthread-db1, libc0, libc-dbg, libc-dev, libstdc++6
+Provides: task-core-standalone-sdk-target
+Replaces: task-core-standalone-sdk-target
+Conflicts: task-core-standalone-sdk-target
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0b24cc0a2e6297aea01943abc9f489ae
+Size: 720
+Filename: packagegroup-core-standalone-sdk-target_1.0-r8_all.ipk
+Source: None
+Description:  packagegroup-core-standalone-sdk-target version 1.0-r8  Target packages
+ for the standalone SDK
+OE: packagegroup-core-standalone-sdk-target
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: packagegroup-cross-canadian-i586
+Version: 1.0-r0
+Depends: binutils-cross-canadian-i586, meta-environment-i586, gdb-cross-canadian-i586, gcc-cross-canadian-i586
+Provides: task-cross-canadian-i586
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 25c8e643ec6133a3bacee9e3e6c0ffd2
+Size: 690
+Filename: packagegroup-cross-canadian-i586_1.0-r0_all.ipk
+Source: None
+Description:  Host SDK package for cross canadian toolchain  Host SDK package for cross
+ canadian toolchain
+OE: packagegroup-cross-canadian-i586
+HomePage: unknown
+License: MIT
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.7-r5
+Recommends: update-rc.d (= 0.7-r5)
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: cb90e904cbf03ea6ab68f0ce252348d0
+Size: 830
+Filename: update-rc.d-dbg_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git;protocol=git file://add-verbose.patch file://check-if-symlinks-are-valid.patch
+Description:  manage symlinks in /etc/rcN.d. - Debugging files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   ELF symbols
+ and related sources for debugging purposes.
+OE: update-rc.d
+HomePage: unknown
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.7-r5
+Depends: update-rc.d (= 0.7-r5)
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 706f319f573127abe0f91c78b9fca364
+Size: 840
+Filename: update-rc.d-dev_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git;protocol=git file://add-verbose.patch file://check-if-symlinks-are-valid.patch
+Description:  manage symlinks in /etc/rcN.d. - Development files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: update-rc.d
+HomePage: unknown
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d
+Version: 0.7-r5
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9cb6d9b368ff295ccc51153bd1266390
+Size: 2786
+Filename: update-rc.d_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git;protocol=git file://add-verbose.patch file://check-if-symlinks-are-valid.patch
+Description:  manage symlinks in /etc/rcN.d.  update-rc.d is a utilities that allows
+ the management of symlinks to the   initscripts in the /etc/rcN.d
+ directory structure.
+OE: update-rc.d
+HomePage: unknown
+License: GPLv2+
+Priority: optional
+

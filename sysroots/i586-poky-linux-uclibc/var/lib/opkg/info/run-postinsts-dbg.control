@@ -1,0 +1,14 @@
+Package: run-postinsts-dbg
+Version: 1.0-r9
+Description: run-postinsts version 1.0-r9 - Debugging files
+ Run postinstall scripts on device using awk  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: run-postinsts
+Homepage: unknown
+Recommends: run-postinsts (= 1.0-r9)
+Source: file://run-postinsts file://run-postinsts.awk

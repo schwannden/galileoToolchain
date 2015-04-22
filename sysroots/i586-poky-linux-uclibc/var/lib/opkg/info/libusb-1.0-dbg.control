@@ -1,0 +1,14 @@
+Package: libusb-1.0-dbg
+Version: 1.0.9-r1
+Description: libusb1 version 1.0.9-r1 - Debugging files
+ Userspace library to access USB (version 1.0)  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1+
+Architecture: i586
+OE: libusb1
+Homepage: http://libusb.sf.net
+Recommends: libusb-1.0-0 (= 1.0.9-r1), libc-dbg, libgcc-s-dbg, uclibc-libpthread-dbg, uclibc-librt-dbg
+Source: http://downloads.sourceforge.net/libusb/libusb-1.0.9.tar.bz2 file://obsolete_automake_macros.patch

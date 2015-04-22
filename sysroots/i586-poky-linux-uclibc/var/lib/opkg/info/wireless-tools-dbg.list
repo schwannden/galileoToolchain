@@ -1,0 +1,15 @@
+/sbin/.debug/
+/usr/src/debug/wireless-tools/1_29-r4/
+/sbin/.debug/iwconfig
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/iwpriv.c
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/iwgetid.c
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/iwlist.c
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/iwlib.c
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/iwspy.c
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/iwlib.h
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/ifrename.c
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/iwmulticall.c
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/iwconfig.c
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/
+/usr/src/debug/wireless-tools/1_29-r4/wireless_tools.29/wireless.h
+/usr/src/debug/wireless-tools/

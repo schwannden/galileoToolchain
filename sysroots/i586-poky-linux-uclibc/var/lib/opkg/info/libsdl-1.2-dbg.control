@@ -1,0 +1,16 @@
+Package: libsdl-1.2-dbg
+Version: 1.2.15-r2
+Description: Simple DirectMedia Layer - Debugging files
+ Simple DirectMedia Layer is a cross-platform multimedia library designed
+ to provide low level access to audio, keyboard, mouse, joystick, 3D
+ hardware via OpenGL, and 2D video framebuffer.  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: i586
+OE: libsdl
+Homepage: http://www.libsdl.org
+Recommends: uclibc-libdl-dbg, libiconv-dbg, uclibc-libm-dbg, libgcc-s-dbg, libsdl-1.2-0 (= 1.2.15-r2), libc-dbg, libts-1.0-dbg, uclibc-libpthread-dbg
+Source: http://www.libsdl.org/release/SDL-1.2.15.tar.gz file://configure_tweak.patch

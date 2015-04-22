@@ -1,0 +1,18 @@
+Package: m4-dbg
+Version: 1.4.16-r4
+Description: Traditional Unix macro processor - Debugging files
+ GNU m4 is an implementation of the traditional Unix macro processor.  It
+ is mostly SVR4 compatible although it has some extensions (for example,
+ handling more than 9 positional parameters to macros). GNU M4 also has
+ built-in functions for including files, running shell commands, doing
+ arithmetic, etc.  This package contains ELF symbols and related sources
+ for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3
+Architecture: i586
+OE: m4
+Homepage: unknown
+Recommends: m4 (= 1.4.16-r4), libc-dbg, libgcc-s-dbg, uclibc-librt-dbg
+Source: ftp://ftp.gnu.org/gnu/m4/m4-1.4.16.tar.gz file://ac_config_links.patch file://remove-gets.patch

@@ -1,0 +1,17 @@
+Package: libts-1.0-dbg
+Version: 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1
+Description: An abstraction layer for touchscreen panel events. - Debugging files
+ Tslib is an abstraction layer for touchscreen panel events, as well as a
+ filter stack for the manipulation of those events. Tslib is generally
+ used on embedded devices to provide a common user space interface to
+ touchscreen functionality.  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2
+Architecture: i586
+OE: tslib
+Homepage: http://tslib.berlios.de/
+Recommends: uclibc-libdl-dbg, libts-1.0-0 (= 1.0+gitr0+e17263ef401ee885a27d649b90b577cfb44500e0-r1), libgcc-s-dbg, libc-dbg
+Source: git://github.com/kergoth/tslib.git;protocol=git file://obsolete_automake_macros.patch file://ts.conf file://tslib.sh

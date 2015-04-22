@@ -1,0 +1,13 @@
+Package: linuxptp
+Version: 20121116-r0
+Description: linuxptp version 20121116-r0
+ Linux PTP application
+Section: net
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: linuxptp
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), librt0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: git://git.code.sf.net/p/linuxptp/code

@@ -1,0 +1,13 @@
+Package: libboost-date-time1.55.0
+Version: 1.55.0-r0
+Description: boost version 1.55.0-r0
+ Free peer-reviewed portable C++ source libraries
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSL-1.0 & MIT & Python-2.0
+Architecture: i586
+OE: boost
+Homepage: http://www.boost.org/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libstdc++6 (>= 4.7.2), librt0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://downloads.sourceforge.net/boost/boost_1_55_0.tar.bz2 file://arm-intrinsics.patch

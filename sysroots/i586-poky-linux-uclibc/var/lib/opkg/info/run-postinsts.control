@@ -1,0 +1,13 @@
+Package: run-postinsts
+Version: 1.0-r9
+Description: run-postinsts version 1.0-r9
+ Run postinstall scripts on device using awk
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: run-postinsts
+Homepage: unknown
+Recommends: update-rc.d
+Source: file://run-postinsts file://run-postinsts.awk

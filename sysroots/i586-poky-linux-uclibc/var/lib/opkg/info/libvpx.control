@@ -1,0 +1,13 @@
+Package: libvpx
+Version: 0.9.5-r3.0
+Description: libvpx version 0.9.5-r3.0
+ vpx Multi-Format Codec SDK
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: libvpx
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://webm.googlecode.com/files/libvpx-v0.9.5.tar.bz2 file://libvpx-configure-support-blank-prefix.patch file://do-not-hardcode-softfp-float-api.patch file://CVE-2010-4203.patch

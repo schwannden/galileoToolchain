@@ -1,0 +1,14 @@
+Package: libmpfr4
+Version: 3.1.1-r0
+Description: mpfr version 3.1.1-r0
+ A C library for multiple-precision floating-point computations with exact
+ rounding
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3&LGPLv3
+Architecture: i586
+OE: mpfr
+Homepage: http://www.mpfr.org/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libgmp10 (>= 5.1.0)
+Source: http://www.mpfr.org/mpfr-3.1.1/mpfr-3.1.1.tar.bz2 file://long-long-thumb.patch

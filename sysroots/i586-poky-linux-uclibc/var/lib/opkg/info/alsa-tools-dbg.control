@@ -1,0 +1,14 @@
+Package: alsa-tools-dbg
+Version: 1.0.26.1-r1
+Description: alsa-tools version 1.0.26.1-r1 - Debugging files
+ Alsa Tools package contains advanced tools for certain sound cards.  This
+ package contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2+
+Architecture: i586
+OE: alsa-tools
+Homepage: http://www.alsa-project.org
+Recommends: uclibc-libm-dbg, alsa-tools (= 1.0.26.1-r1), libasound-dbg, libstdc++-dbg, libgcc-s-dbg, libc-dbg, uclibc-libpthread-dbg
+Source: ftp://ftp.alsa-project.org/pub/tools/alsa-tools-1.0.26.1.tar.bz2 file://mips_has_no_io_h.patch file://autotools.patch file://makefile_no_gtk.patch

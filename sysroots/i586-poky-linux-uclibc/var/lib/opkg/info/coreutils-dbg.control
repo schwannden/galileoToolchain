@@ -1,0 +1,16 @@
+Package: coreutils-dbg
+Version: 8.21-r0
+Description: The basic file, shell and text manipulation utilities. - Debugging files
+ The GNU Core Utilities provide the basic file, shell and text
+ manipulation utilities. These are the core utilities which are expected
+ to exist on every system.  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+
+Architecture: i586
+OE: coreutils
+Homepage: http://www.gnu.org/software/coreutils/
+Recommends: libiconv-dbg, libattr-dbg, libgmp-dbg, libgcc-s-dbg, coreutils (= 8.21-r0), libc-dbg, uclibc-librt-dbg, libcap-dbg, uclibc-libpthread-dbg
+Source: ftp://ftp.gnu.org/gnu/coreutils/coreutils-8.21.tar.xz file://remove-usr-local-lib-from-m4.patch file://coreutils-build-with-acl.patch file://dummy_help2man.patch

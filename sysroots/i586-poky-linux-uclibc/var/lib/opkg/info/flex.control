@@ -1,0 +1,14 @@
+Package: flex
+Version: 2.5.35-r3
+Description: Flex (The Fast Lexical Analyzer)
+ Flex is a fast lexical analyser generator.  Flex is a tool for generating
+ programs that recognize lexical patterns in text.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: flex
+Homepage: http://sourceforge.net/projects/flex/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://downloads.sourceforge.net/flex/flex-2.5.35.tar.bz2 file://avoid-FORTIFY-warnings.patch file://int-is-not-the-same-size-as-size_t.patch

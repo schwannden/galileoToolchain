@@ -1,0 +1,14 @@
+Package: opkg-dbg
+Version: 1:0.1.8+svnr649-r13.0
+Description: opkg version 0.1.8+svnr649-r13.0 - Debugging files
+ Open Package Manager  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: opkg
+Homepage: http://code.google.com/p/opkg/
+Recommends: libc-dbg, opkg (= 1:0.1.8+svnr649-r13.0), libgcc-s-dbg, libopkg-dbg
+Source: svn://opkg.googlecode.com/svn;module=trunk;protocol=http file://obsolete_automake_macros.patch

@@ -1,0 +1,13 @@
+Package: libsndfile1
+Version: 1.0.25-r1
+Description: libsndfile1 version 1.0.25-r1
+ An audio format Conversion library
+Section: libs/multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: i586
+OE: libsndfile1
+Homepage: http://www.mega-nerd.com/libsndfile
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.25.tar.gz

@@ -1,0 +1,14 @@
+Package: alsa-utils-dbg
+Version: 1.0.26-r0
+Description: alsa-utils version 1.0.26-r0 - Debugging files
+ ALSA Utilities  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: alsa-utils
+Homepage: http://www.alsa-project.org
+Recommends: alsa-utils (= 1.0.26-r0), uclibc-libm-dbg, ncurses-libform-dbg, libgcc-s-dbg, libasound-dbg, ncurses-libtinfo-dbg, libc-dbg, ncurses-libmenu-dbg, uclibc-librt-dbg, ncurses-libpanel-dbg, ncurses-libncurses-dbg, uclibc-libpthread-dbg, libsamplerate0-dbg
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.0.26.tar.bz2 file://uclibc-exp10-replacement.patch file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://obsolete_automake_macros.patch

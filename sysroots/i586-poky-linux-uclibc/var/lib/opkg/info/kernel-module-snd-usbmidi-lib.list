@@ -1,0 +1,3 @@
+/lib/modules/3.8.7-yocto-standard/kernel/sound/
+/lib/modules/3.8.7-yocto-standard/kernel/sound/usb/
+/lib/modules/3.8.7-yocto-standard/kernel/sound/usb/snd-usbmidi-lib.ko

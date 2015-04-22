@@ -1,0 +1,14 @@
+Package: opkg-collateral-dev
+Version: 1.0-r2
+Description: opkg-collateral version 1.0-r2 - Development files
+ opkg configuration files  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: opkg-collateral
+Homepage: unknown
+Depends: opkg-collateral (= 1.0-r2)
+Source: file://opkg.conf.comments file://dest file://src

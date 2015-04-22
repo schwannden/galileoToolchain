@@ -1,0 +1,14 @@
+Package: libopencv-stitching-dev
+Version: 2.4.3-r2
+Description: opencv version 2.4.3-r2
+ OpenCV opencv-stitching development package
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: opencv
+Homepage: http://opencv.willowgarage.com/wiki/
+Depends: libopencv-stitching2.4, opencv-dev
+Recommends: libgcc-s-dev, libjpeg-dev, libz-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-gpu-dev, bzip2-dev, python-dev, uclibc-libpthread-dev, libav-dev, swig-dev, libopencv-imgproc-dev, libtiff-dev, libopencv-calib3d-dev, libopencv-nonfree-dev, python-numpy-dev, libstdc++-dev, uclibc-libm-dev, libtool-dev, libpng16-dev, libglib-2.0-dev, v4l-utils-dev, libc-dev, libopencv-core-dev
+Source: https://github.com/Itseez/opencv/archive/2.4.3.tar.gz file://opencv-fix-pkgconfig-generation.patch

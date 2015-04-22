@@ -1,0 +1,5 @@
+/var/
+/opt/ndn/sysroots/x86_64-pokysdk-linux/usr/lib/libopkg.so.1.0.0
+/var/lib/opkg/
+/opt/ndn/sysroots/x86_64-pokysdk-linux/usr/lib/libopkg.so.1
+/var/lib/

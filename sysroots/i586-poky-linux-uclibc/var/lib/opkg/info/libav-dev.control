@@ -1,0 +1,16 @@
+Package: libav-dev
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0
+Description: libav version 0.8.4+gitAUTOINC+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0 - Development files
+ Libav is a complete, cross-platform solution to record, convert and
+ stream audio and video.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: libav
+Homepage: http://libav.org/
+Depends: libav (= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0)
+Recommends: libtheora-dev, libsdl-1.2-dev, libgcc-s-dev, uclibc-libpthread-dev, libavcodec-dev, liba52-dev, uclibc-libdl-dev, libpostproc-dev, libavfilter-dev, uclibc-libm-dev, libvorbis-dev, libavformat-dev, libogg-dev, libswscale-dev, libavutil-dev, libc-dev, libz-dev, libvpx-dev, libx264-dev, libavdevice-dev
+Source: git://git.libav.org/libav.git;protocol=git;branch=release/0.8 file://0001-configure-enable-pic-for-AArch64.patch

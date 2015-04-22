@@ -1,0 +1,14 @@
+Package: wpa-supplicant-dbg
+Version: 2.0-r1
+Description: wpa-supplicant version 2.0-r1 - Debugging files
+ A Client for Wi-Fi Protected Access (WPA).  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: wpa-supplicant
+Homepage: http://hostap.epitest.fi/wpa_supplicant/
+Recommends: libnl-genl-dbg, libgcc-s-dbg, libnl-3-dbg, dbus-lib-dbg, libc-dbg, libgnutls-dbg, wpa-supplicant (= 2.0-r1), libgcrypt-dbg
+Source: http://hostap.epitest.fi/releases/wpa_supplicant-2.0.tar.gz file://defconfig-gnutls file://wpa-supplicant.sh file://wpa_supplicant.conf file://wpa_supplicant.conf-sane file://99_wpa_supplicant file://fix-libnl3-host-contamination.patch

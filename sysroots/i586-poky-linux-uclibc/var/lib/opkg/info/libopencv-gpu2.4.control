@@ -1,0 +1,13 @@
+Package: libopencv-gpu2.4
+Version: 2.4.3-r2
+Description: opencv version 2.4.3-r2
+ OpenCV opencv-gpu library
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: opencv
+Homepage: http://opencv.willowgarage.com/wiki/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libopencv-core2.4 (>= 2.4.3), libstdc++6 (>= 4.7.2)
+Source: https://github.com/Itseez/opencv/archive/2.4.3.tar.gz file://opencv-fix-pkgconfig-generation.patch

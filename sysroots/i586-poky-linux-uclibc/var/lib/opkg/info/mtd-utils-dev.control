@@ -1,0 +1,16 @@
+Package: mtd-utils-dev
+Version: 1.5.0-r3
+Description: mtd-utils version 1.5.0-r3 - Development files
+ Tools for managing memory technology devices.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: mtd-utils
+Homepage: http://www.linux-mtd.infradead.org/
+Depends: mtd-utils (= 1.5.0-r3)
+Recommends: libgcc-s-dev, util-linux-dev, libz-dev, liblzo2-dev, uclibc-libm-dev, libuuid-dev, libc-dev, e2fsprogs-dev
+Source: git://git.infradead.org/mtd-utils.git;protocol=git file://add-exclusion-to-mkfs-jffs2-git-2.patch file://mtd-utils-fix-corrupt-cleanmarker-with-flash_erase--j-command.patch

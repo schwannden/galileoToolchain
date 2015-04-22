@@ -1,0 +1,13 @@
+Package: dmidecode
+Version: 2.10-r2
+Description: dmidecode version 2.10-r2
+ DMI (Desktop Management Interface) table related utilities
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: dmidecode
+Homepage: http://www.nongnu.org/dmidecode/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://savannah.nongnu.org/download/dmidecode/dmidecode-2.10.tar.bz2

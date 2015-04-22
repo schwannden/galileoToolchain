@@ -1,0 +1,15 @@
+Package: alsa-lib-dev
+Version: 1.0.26-r0
+Description: alsa-lib version 1.0.26-r0 - Development files
+ Alsa sound library  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1 & GPLv2+
+Architecture: i586
+OE: alsa-lib
+Homepage: http://www.alsa-project.org
+Depends: alsa-lib (= 1.0.26-r0), libasound2
+Recommends: uclibc-librt-dev, libgcc-s-dev, uclibc-libpthread-dev, uclibc-libdl-dev, uclibc-libm-dev, libasound-dev, libc-dev
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.26.tar.bz2 file://fix-tstamp-declaration.patch file://obsolete_automake_macros.patch

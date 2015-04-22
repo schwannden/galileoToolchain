@@ -1,0 +1,15 @@
+Package: ethtool-dbg
+Version: 3.6-r0
+Description: Display or change ethernet card settings - Debugging files
+ A small utility for examining and tuning the settings of your ethernet-
+ based network interfaces.  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: ethtool
+Homepage: http://www.kernel.org/pub/software/network/ethtool/
+Recommends: ethtool (= 3.6-r0), libc-dbg, libgcc-s-dbg
+Source: http://kernel.org/pub/software/network/ethtool/ethtool-3.6.tar.gz

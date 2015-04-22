@@ -1,0 +1,13 @@
+Package: libavfilter2
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0
+Description: libav version 0.8.4+gitAUTOINC+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0
+ libav avfilter library
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: libav
+Homepage: http://libav.org/
+Depends: libgcc1 (>= 4.7.2), libswscale2 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libavcodec53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libavformat53 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libavutil51 (>= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519)
+Source: git://git.libav.org/libav.git;protocol=git;branch=release/0.8 file://0001-configure-enable-pic-for-AArch64.patch

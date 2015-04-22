@@ -1,0 +1,15 @@
+Package: libjpeg-dbg
+Version: 8d-r1
+Description: libjpeg is a library for handling the JPEG (JFIF) image format. - Debugging files
+ libjpeg contains a library for handling the JPEG (JFIF) image format, as
+ well as related programs for accessing the libjpeg functions.  This
+ package contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD-3-Clause
+Architecture: i586
+OE: jpeg
+Homepage: http://www.ijg.org/
+Recommends: libc-dbg, libgcc-s-dbg, libjpeg8 (= 8d-r1)
+Source: http://www.ijg.org/files/jpegsrc.v8d.tar.gz file://debian-libjpeg7_7-1.diff file://fix_for_automake_1.12.1.patch

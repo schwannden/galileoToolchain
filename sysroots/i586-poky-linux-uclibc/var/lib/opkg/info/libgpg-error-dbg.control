@@ -1,0 +1,15 @@
+Package: libgpg-error-dbg
+Version: 1.11-r0
+Description: libgpg-error version 1.11-r0 - Debugging files
+ a small library that defines common error values for all GnuPG components
+ This package contains ELF symbols and related sources for debugging
+ purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: i586
+OE: libgpg-error
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Recommends: libc-dbg, libgpg-error0 (= 1.11-r0), libgcc-s-dbg
+Source: ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.11.tar.bz2 file://pkgconfig.patch

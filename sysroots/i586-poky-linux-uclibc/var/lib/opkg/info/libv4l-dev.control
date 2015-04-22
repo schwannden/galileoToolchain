@@ -1,0 +1,14 @@
+Package: libv4l-dev
+Version: 0.8.8-r2
+Description: v4l-utils version 0.8.8-r2
+ v4l2 and IR applications
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2.1
+Architecture: i586
+OE: v4l-utils
+Homepage: unknown
+Depends: libv4l
+Recommends: uclibc-librt-dev, libgcc-s-dev, uclibc-libpthread-dev, libjpeg-dev, uclibc-libdl-dev, uclibc-libm-dev, libiconv-dev, libc-dev
+Source: git://linuxtv.org/v4l-utils.git;protocol=git file://openat.patch file://uclibc-enable.patch

@@ -1,0 +1,13 @@
+Package: nativesdk-qemu-helper
+Version: 1.0-r9
+Description: Qemu helper scripts
+ Qemu helper scripts
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: x86_64-nativesdk
+OE: nativesdk-qemu-helper
+Homepage: unknown
+Depends: nativesdk-libc6 (>= 2.17), nativesdk-qemu
+Source: file:///home/schwannden/ndn/Galileo-Runtime/meta-clanton_v1.0.1/poky/scripts/runqemu file:///home/schwannden/ndn/Galileo-Runtime/meta-clanton_v1.0.1/poky/scripts/runqemu-internal file:///home/schwannden/ndn/Galileo-Runtime/meta-clanton_v1.0.1/poky/scripts/runqemu-addptable2image file:///home/schwannden/ndn/Galileo-Runtime/meta-clanton_v1.0.1/poky/scripts/runqemu-gen-tapdevs file:///home/schwannden/ndn/Galileo-Runtime/meta-clanton_v1.0.1/poky/scripts/runqemu-ifup file:///home/schwannden/ndn/Galileo-Runtime/meta-clanton_v1.0.1/poky/scripts/runqemu-ifdown file:///home/schwannden/ndn/Galileo-Runtime/meta-clanton_v1.0.1/poky/scripts/oe-find-native-sysroot file:///home/schwannden/ndn/Galileo-Runtime/meta-clanton_v1.0.1/poky/scripts/runqemu-extract-sdk file:///home/schwannden/ndn/Galileo-Runtime/meta-clanton_v1.0.1/poky/scripts/runqemu-export-rootfs file://tunctl.c file://raw2flash.c

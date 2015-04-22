@@ -1,0 +1,14 @@
+Package: libsndfile-dbg
+Version: 1.0.25-r1
+Description: libsndfile1 version 1.0.25-r1 - Debugging files
+ An audio format Conversion library  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: i586
+OE: libsndfile1
+Homepage: http://www.mega-nerd.com/libsndfile
+Recommends: libsqlite3-dbg, libsndfile1 (= 1.0.25-r1), uclibc-libm-dbg, libasound-dbg, libgcc-s-dbg, libc-dbg
+Source: http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.25.tar.gz

@@ -1,0 +1,13 @@
+Package: bash
+Version: 4.2-r6
+Description: bash version 4.2-r6
+ An sh-compatible command language interpreter.
+Section: base/shell
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+
+Architecture: i586
+OE: bash
+Homepage: http://cnswww.cns.cwru.edu/~chet/bash/bashtop.html
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), update-alternatives-cworth, libtinfo5 (>= 5.9), libdl0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.gnu.org/gnu/bash/bash-4.2.tar.gz;name=tarball ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-001;apply=yes;striplevel=0;name=patch001 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-002;apply=yes;striplevel=0;name=patch002 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-003;apply=yes;striplevel=0;name=patch003 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-004;apply=yes;striplevel=0;name=patch004 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-005;apply=yes;striplevel=0;name=patch005 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-006;apply=yes;striplevel=0;name=patch006 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-007;apply=yes;striplevel=0;name=patch007 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-008;apply=yes;striplevel=0;name=patch008 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-009;apply=yes;striplevel=0;name=patch009 ftp://ftp.gnu.org/gnu/bash/bash-4.2-patches/bash42-010;apply=yes;striplevel=0;name=patch010 file://execute_cmd.patch;striplevel=0 file://mkbuiltins_have_stringize.patch file://build-tests.patch file://test-output.patch file://run-ptest

@@ -1,0 +1,16 @@
+Package: nodejs-dev
+Version: 0.8.18-r0
+Description: nodejs version 0.8.18-r0 - Development files
+ nodeJS Evented I/O for V8 JavaScript  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT & BSD
+Architecture: i586
+OE: nodejs
+Homepage: http://nodejs.org
+Depends: nodejs (= 0.8.18-r0)
+Recommends: python-datetime-dev, uclibc-librt-dev, python-netclient-dev, libgcc-s-dev, uclibc-libpthread-dev, uclibc-libdl-dev, python-shell-dev, openssl-dev, curl-dev, uclibc-libm-dev, python-subprocess-dev, libstdc++-dev, libc-dev, python-textutils-dev, python-crypt-dev
+Source: http://nodejs.org/dist/v0.8.18/node-v0.8.18.tar.gz file://0001-gcc-has-a-builtin-define-to-denote-hard-abi-when-in-.patch

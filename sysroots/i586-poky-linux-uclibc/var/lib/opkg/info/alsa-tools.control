@@ -1,0 +1,13 @@
+Package: alsa-tools
+Version: 1.0.26.1-r1
+Description: alsa-tools version 1.0.26.1-r1
+ Alsa Tools package contains advanced tools for certain sound cards.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2+
+Architecture: i586
+OE: alsa-tools
+Homepage: http://www.alsa-project.org
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libstdc++6 (>= 4.7.2), libasound2 (>= 1.0.26)
+Source: ftp://ftp.alsa-project.org/pub/tools/alsa-tools-1.0.26.1.tar.bz2 file://mips_has_no_io_h.patch file://autotools.patch file://makefile_no_gtk.patch

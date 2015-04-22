@@ -1,0 +1,16 @@
+Package: libnl-3-dev
+Version: 1:3.2.21-r0
+Description: libnl version 3.2.21-r0 - Development files
+ libnl is a library for applications dealing with netlink sockets.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: i586
+OE: libnl
+Homepage: http://www.infradead.org/~tgr/libnl/
+Depends: libgcc1 (>= 4.7.2), libnl-3-cli, libnl-route-3-200, libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libnl-3-200 (= 1:3.2.21-r0), libnl-3-genl, libnl-nf-3-200
+Recommends: libnl-route-dev, libgcc-s-dev, uclibc-libpthread-dev, uclibc-libdl-dev, libnl-genl-dev, uclibc-libm-dev, libnl-cli-dev, libnl-nf-dev, libc-dev
+Source: http://www.infradead.org/~tgr/libnl/files/libnl-3.2.21.tar.gz file://fix-pktloc_syntax_h-race.patch file://fix-pc-file.patch

@@ -1,0 +1,13 @@
+Package: libsamplerate0
+Version: 0.1.8-r1
+Description: libsamplerate0 version 0.1.8-r1
+ An audio Sample Rate Conversion library
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: libsamplerate0
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libsndfile1 (>= 1.0.25), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://www.mega-nerd.com/SRC/libsamplerate-0.1.8.tar.gz

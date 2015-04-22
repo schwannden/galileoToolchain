@@ -1,0 +1,7 @@
+/opt/ndn/sysroots/x86_64-pokysdk-linux/usr/share/opkg/intercept/ldconfig
+/opt/ndn/sysroots/x86_64-pokysdk-linux/usr/share/opkg/intercept/depmod
+/opt/ndn/sysroots/x86_64-pokysdk-linux/usr/share/opkg/intercept/update-modules
+/opt/ndn/sysroots/x86_64-pokysdk-linux/usr/share/opkg/intercept/
+/opt/ndn/sysroots/x86_64-pokysdk-linux/usr/share/opkg/
+/opt/ndn/sysroots/x86_64-pokysdk-linux/usr/bin/opkg-cl
+/opt/ndn/sysroots/x86_64-pokysdk-linux/usr/bin/opkg-key

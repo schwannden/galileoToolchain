@@ -1,0 +1,15 @@
+Package: bluez4-dbg
+Version: 4.101-r5
+Description: Linux Bluetooth Stack Userland V4 - Debugging files
+ Linux Bluetooth stack V4 userland components.  These include a system
+ configurations, daemons, tools and system libraries.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: i586
+OE: bluez4
+Homepage: http://www.bluez.org
+Recommends: uclibc-libdl-dbg, libiconv-dbg, libusb-0.1-dbg, libreadline-dbg, libasound-dbg, libglib-2.0-dbg, libgcc-s-dbg, dbus-lib-dbg, bluez4 (= 4.101-r5), libusb-1.0-dbg, libc-dbg, uclibc-libm-dbg, uclibc-librt-dbg, gettext-runtime-dbg, uclibc-libpthread-dbg, libudev-dbg
+Source: http://kernel.org/pub/linux/bluetooth/bluez-4.101.tar.gz file://bluetooth.conf file://sbc_mmx.patch file://fix-udev-paths.patch file://obsolete_automake_macros.patch

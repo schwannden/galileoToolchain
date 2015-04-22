@@ -1,0 +1,14 @@
+Package: poky-feed-config-opkg-dbg
+Version: 1.0-r2
+Description: poky-feed-config-opkg version 1.0-r2 - Debugging files
+ Poky example feed configuration  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: clanton
+OE: poky-feed-config-opkg
+Homepage: unknown
+Recommends: poky-feed-config-opkg (= 1.0-r2)
+Source: None

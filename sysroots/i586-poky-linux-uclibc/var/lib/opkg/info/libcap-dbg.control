@@ -1,0 +1,14 @@
+Package: libcap-dbg
+Version: 2.22-r5
+Description: libcap version 2.22-r5 - Debugging files
+ support for getting/setting POSIX.1e capabilities  This package contains
+ ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD | GPLv2
+Architecture: i586
+OE: libcap
+Homepage: http://sites.google.com/site/fullycapable/
+Recommends: libcap2 (= 2.22-r5), libc-dbg, libgcc-s-dbg
+Source: ftp://ftp.debian.org/debian/pool/main/libc/libcap2/libcap2_2.22.orig.tar.gz

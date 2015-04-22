@@ -1,0 +1,13 @@
+Package: v4l-utils
+Version: 0.8.8-r2
+Description: v4l-utils version 0.8.8-r2
+ v4l2 and IR applications
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2.1
+Architecture: i586
+OE: v4l-utils
+Homepage: unknown
+Depends: libgcc1 (>= 4.7.2), libuargp0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libstdc++6 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libv4l (>= 0.8.8), librt0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: git://linuxtv.org/v4l-utils.git;protocol=git file://openat.patch file://uclibc-enable.patch

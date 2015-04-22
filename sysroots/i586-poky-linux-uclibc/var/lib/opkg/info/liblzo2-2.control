@@ -1,0 +1,13 @@
+Package: liblzo2-2
+Version: 2.06-r1
+Description: lzo version 2.06-r1
+ Lossless data compression library
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://www.oberhumer.com/opensource/lzo/download/lzo-2.06.tar.gz file://acinclude.m4

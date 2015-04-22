@@ -1,0 +1,14 @@
+Package: file
+Version: 5.13-r0
+Description: File classification tool
+ File attempts to classify files depending on their contents and prints a
+ description if a match is found.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: file
+Homepage: http://www.darwinsys.com/file/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libz1 (>= 1.2.7)
+Source: ftp://ftp.astron.com/pub/file/file-5.13.tar.gz file://fix_version_check.patch file://dump file://filesystems

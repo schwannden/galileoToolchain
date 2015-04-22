@@ -1,0 +1,7 @@
+/usr/include/iconv.h
+/usr/lib/libiconv.la
+/usr/include/localcharset.h
+/usr/lib/libcharset.la
+/usr/include/libcharset.h
+/usr/lib/libiconv.so
+/usr/lib/libcharset.so

@@ -1,0 +1,14 @@
+Package: linuxptp-dbg
+Version: 20121116-r0
+Description: linuxptp version 20121116-r0 - Debugging files
+ Linux PTP application  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: linuxptp
+Homepage: unknown
+Recommends: linuxptp (= 20121116-r0), libgcc-s-dbg, libc-dbg, uclibc-librt-dbg
+Source: git://git.code.sf.net/p/linuxptp/code

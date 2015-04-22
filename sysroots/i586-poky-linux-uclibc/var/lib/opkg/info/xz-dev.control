@@ -1,0 +1,16 @@
+Package: xz-dev
+Version: 5.1.2alpha-r0
+Description: xz version 5.1.2alpha-r0 - Development files
+ utils for managing LZMA compressed files  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: i586
+OE: xz
+Homepage: http://tukaani.org/xz/
+Depends: xz (= 5.1.2alpha-r0)
+Recommends: libgcc-s-dev, liblzma-dev, uclibc-libpthread-dev, libc-dev
+Source: http://tukaani.org/xz/xz-5.1.2alpha.tar.gz

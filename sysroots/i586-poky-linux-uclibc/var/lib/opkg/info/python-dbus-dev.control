@@ -1,0 +1,16 @@
+Package: python-dbus-dev
+Version: 1.1.1-r2
+Description: python-dbus version 1.1.1-r2 - Development files
+ Python bindings for DBus, a socket-based message bus system for
+ interprocess communication  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: python-dbus
+Homepage: http://www.freedesktop.org/Software/dbus
+Depends: python-dbus (= 1.1.1-r2)
+Recommends: libdbus-glib-1-dev, python-io-dev, uclibc-libpthread-dev, libz-dev, uclibc-libdl-dev, dbus-lib-dev, libglib-2.0-dev, uclibc-librt-dev, libffi-dev, libiconv-dev, gettext-runtime-dev, libc-dev, libexpat-dev, python-xml-dev, libgcc-s-dev, python-threading-dev, dbus-dev, python-stringold-dev, python-dev, python-logging-dev
+Source: http://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.1.1.tar.gz file://obsolete_automake_macros.patch

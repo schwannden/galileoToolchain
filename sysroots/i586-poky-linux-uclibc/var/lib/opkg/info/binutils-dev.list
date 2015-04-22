@@ -1,0 +1,12 @@
+/usr/include/dis-asm.h
+/usr/include/plugin-api.h
+/usr/include/ansidecl.h
+/usr/include/bfdlink.h
+/usr/include/bfd.h
+/usr/lib/libopcodes.la
+/usr/lib/libbfd.la
+/usr/include/libiberty.h
+/usr/lib/libopcodes.so
+/usr/lib/libbfd.so
+/usr/include/bfd-32.h
+/usr/include/symcat.h

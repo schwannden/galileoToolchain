@@ -1,0 +1,14 @@
+Package: mtd-utils-dbg
+Version: 1.5.0-r3
+Description: mtd-utils version 1.5.0-r3 - Debugging files
+ Tools for managing memory technology devices.  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: mtd-utils
+Homepage: http://www.linux-mtd.infradead.org/
+Recommends: mtd-utils (= 1.5.0-r3), uclibc-libm-dbg, libgcc-s-dbg, libc-dbg, libz-dbg, liblzo2-dbg, util-linux-libuuid-dbg
+Source: git://git.infradead.org/mtd-utils.git;protocol=git file://add-exclusion-to-mkfs-jffs2-git-2.patch file://mtd-utils-fix-corrupt-cleanmarker-with-flash_erase--j-command.patch

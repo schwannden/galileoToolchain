@@ -1,0 +1,16 @@
+Package: file-dev
+Version: 5.13-r0
+Description: File classification tool - Development files
+ File attempts to classify files depending on their contents and prints a
+ description if a match is found.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: file
+Homepage: http://www.darwinsys.com/file/
+Depends: file (= 5.13-r0)
+Recommends: libgcc-s-dev, libc-dev, libz-dev
+Source: ftp://ftp.astron.com/pub/file/file-5.13.tar.gz file://fix_version_check.patch file://dump file://filesystems

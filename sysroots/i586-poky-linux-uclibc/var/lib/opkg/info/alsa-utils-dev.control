@@ -1,0 +1,15 @@
+Package: alsa-utils-dev
+Version: 1.0.26-r0
+Description: alsa-utils version 1.0.26-r0 - Development files
+ ALSA Utilities  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: alsa-utils
+Homepage: http://www.alsa-project.org
+Depends: alsa-utils (= 1.0.26-r0)
+Recommends: alsa-utils-iecset-dev, libgcc-s-dev, ncurses-libtinfo-dev, uclibc-libm-dev, alsa-lib-dev, uclibc-librt-dev, ncurses-libpanel-dev, uclibc-libpthread-dev, alsa-utils-alsaconf-dev, alsa-utils-midi-dev, alsa-utils-speakertest-dev, bash-dev, alsa-utils-alsaloop-dev, ncurses-libform-dev, udev-dev, ncurses-libncurses-dev, alsa-utils-aconnect-dev, libasound-dev, alsa-utils-amixer-dev, ncurses-libmenu-dev, ncurses-dev, alsa-utils-aseqdump-dev, alsa-utils-alsaucm-dev, alsa-utils-alsamixer-dev, libc-dev, alsa-utils-aseqnet-dev, alsa-utils-aplay-dev, alsa-utils-alsactl-dev, libsamplerate0-dev
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.0.26.tar.bz2 file://uclibc-exp10-replacement.patch file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://obsolete_automake_macros.patch

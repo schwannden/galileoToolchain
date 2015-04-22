@@ -1,0 +1,15 @@
+Package: libav-dbg
+Version: 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0
+Description: libav version 0.8.4+gitAUTOINC+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0 - Debugging files
+ Libav is a complete, cross-platform solution to record, convert and
+ stream audio and video.  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: libav
+Homepage: http://libav.org/
+Recommends: uclibc-libdl-dbg, libbz2-dbg, uclibc-libm-dbg, libtheora-dbg, libx264-dbg, libavformat-dbg, libpostproc-dbg, libavdevice-dbg, libgcc-s-dbg, libavcodec-dbg, libavfilter-dbg, libc-dbg, libswscale-dbg, libz-dbg, libav (= 0.8.4+git0+2c8ce46250ff78191fe6565876ddc4bc03fdf519-r8.0), libavutil-dbg, libasound-dbg, libvorbis-dbg, uclibc-libpthread-dbg, libsdl-1.2-dbg
+Source: git://git.libav.org/libav.git;protocol=git;branch=release/0.8 file://0001-configure-enable-pic-for-AArch64.patch

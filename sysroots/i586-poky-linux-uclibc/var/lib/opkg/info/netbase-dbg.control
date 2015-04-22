@@ -1,0 +1,15 @@
+Package: netbase-dbg
+Version: 1:5.0-r0
+Description: Basic TCP/IP networking support - Debugging files
+ This package provides the necessary infrastructure for basic TCP/IP based
+ networking  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: netbase
+Homepage: http://packages.debian.org/netbase
+Recommends: netbase (= 1:5.0-r0)
+Source: ftp://ftp.debian.org/debian/pool/main/n/netbase/netbase_5.0.tar.gz file://hosts

@@ -1,0 +1,14 @@
+Package: dmidecode-dbg
+Version: 2.10-r2
+Description: dmidecode version 2.10-r2 - Debugging files
+ DMI (Desktop Management Interface) table related utilities  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: dmidecode
+Homepage: http://www.nongnu.org/dmidecode/
+Recommends: dmidecode (= 2.10-r2), libc-dbg, libgcc-s-dbg
+Source: http://savannah.nongnu.org/download/dmidecode/dmidecode-2.10.tar.bz2

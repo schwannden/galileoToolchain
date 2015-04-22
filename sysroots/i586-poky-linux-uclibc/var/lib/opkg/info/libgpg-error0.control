@@ -1,0 +1,13 @@
+Package: libgpg-error0
+Version: 1.11-r0
+Description: libgpg-error version 1.11-r0
+ a small library that defines common error values for all GnuPG components
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: i586
+OE: libgpg-error
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.11.tar.bz2 file://pkgconfig.patch

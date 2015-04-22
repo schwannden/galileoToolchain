@@ -1,0 +1,13 @@
+Package: swig
+Version: 2.0.9-r3.0
+Description: swig version 2.0.9-r3.0
+ SWIG - Simplified Wrapper and Interface Generator
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD & GPLv3
+Architecture: i586
+OE: swig
+Homepage: http://swig.sourceforge.net/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libz1 (>= 1.2.7), libpcre1 (>= 8.32), libstdc++6 (>= 4.7.2)
+Source: http://downloads.sourceforge.net/swig/swig-2.0.9.tar.gz file://0001-Use-proc-self-exe-for-swig-swiglib-on-non-Win32-plat.patch

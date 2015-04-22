@@ -1,0 +1,16 @@
+Package: dmidecode-dev
+Version: 2.10-r2
+Description: dmidecode version 2.10-r2 - Development files
+ DMI (Desktop Management Interface) table related utilities  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: dmidecode
+Homepage: http://www.nongnu.org/dmidecode/
+Depends: dmidecode (= 2.10-r2)
+Recommends: libgcc-s-dev, libc-dev
+Source: http://savannah.nongnu.org/download/dmidecode/dmidecode-2.10.tar.bz2

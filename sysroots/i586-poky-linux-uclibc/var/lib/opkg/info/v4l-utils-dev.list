@@ -1,0 +1,12 @@
+/usr/lib/libv4lconvert.la
+/usr/include/dvb-scan.h
+/usr/lib/libv4l1.la
+/usr/lib/libv4l2.la
+/usr/include/dvb-file.h
+/usr/include/dvb-demux.h
+/usr/include/dvb-sat.h
+/usr/include/dvb-frontend.h
+/usr/include/dvb-v5-std.h
+/usr/lib/libdvbv5.la
+/usr/lib/libv4l2rds.la
+/usr/include/dvb-fe.h

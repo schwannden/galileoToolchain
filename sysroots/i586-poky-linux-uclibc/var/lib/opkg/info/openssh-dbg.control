@@ -1,0 +1,16 @@
+Package: openssh-dbg
+Version: 6.1p1-r0
+Description: Secure rlogin/rsh/rcp/telnet replacement - Debugging files
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.  This package contains ELF symbols and related sources
+ for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: openssh
+Homepage: http://openssh.org
+Recommends: uclibc-libdl-dbg, libssp-dbg, uclibc-libcrypt-dbg, openssh (= 6.1p1-r0), libgcc-s-dbg, libc-dbg, libz-dbg, libcrypto-dbg, uclibc-libutil-dbg
+Source: ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-6.1p1.tar.gz file://nostrip.patch file://sshd_config file://ssh_config file://init file://openssh-CVE-2011-4327.patch

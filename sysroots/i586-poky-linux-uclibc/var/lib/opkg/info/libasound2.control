@@ -1,0 +1,13 @@
+Package: libasound2
+Version: 1.0.26-r0
+Description: alsa-lib version 1.0.26-r0
+ Alsa sound library
+Section: libs/multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1 & GPLv2+
+Architecture: i586
+OE: alsa-lib
+Homepage: http://www.alsa-project.org
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), alsa-conf-base, libdl0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), librt0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.26.tar.bz2 file://fix-tstamp-declaration.patch file://obsolete_automake_macros.patch

@@ -1,0 +1,14 @@
+Package: opencv-dbg
+Version: 2.4.3-r2
+Description: opencv version 2.4.3-r2 - Debugging files
+ Opencv : The Open Computer Vision Library  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: opencv
+Homepage: http://opencv.willowgarage.com/wiki/
+Recommends: libpng16-dbg, libstdc++-dbg, libavformat-dbg, libavutil-dbg, libopencv-objdetect-dbg, libopencv-legacy-dbg, libopencv-contrib-dbg, libopencv-nonfree-dbg, libjpeg-dbg, libgcc-s-dbg, opencv (= 2.4.3-r2), libc-dbg, libopencv-highgui-dbg, libopencv-ml-dbg, libopencv-gpu-dbg, libpython2-dbg, uclibc-libm-dbg, libopencv-features2d-dbg, libopencv-flann-dbg, libavcodec-dbg, libz-dbg, libopencv-photo-dbg, libopencv-imgproc-dbg, libv4l-dbg, libopencv-core-dbg, libopencv-calib3d-dbg, libtiff-dbg, libswscale-dbg, uclibc-librt-dbg, libopencv-video-dbg, uclibc-libpthread-dbg
+Source: https://github.com/Itseez/opencv/archive/2.4.3.tar.gz file://opencv-fix-pkgconfig-generation.patch

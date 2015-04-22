@@ -1,0 +1,14 @@
+Package: ethtool
+Version: 3.6-r0
+Description: Display or change ethernet card settings
+ A small utility for examining and tuning the settings of your ethernet-
+ based network interfaces.
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: ethtool
+Homepage: http://www.kernel.org/pub/software/network/ethtool/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://kernel.org/pub/software/network/ethtool/ethtool-3.6.tar.gz

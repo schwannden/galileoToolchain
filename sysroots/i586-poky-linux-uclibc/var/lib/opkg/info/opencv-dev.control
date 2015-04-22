@@ -1,0 +1,16 @@
+Package: opencv-dev
+Version: 2.4.3-r2
+Description: opencv version 2.4.3-r2 - Development files
+ Opencv : The Open Computer Vision Library  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: opencv
+Homepage: http://opencv.willowgarage.com/wiki/
+Depends: opencv (= 2.4.3-r2)
+Recommends: libjpeg-dev, libz-dev, libopencv-core-dev, libopencv-features2d-dev, libopencv-photo-dev, libopencv-videostab-dev, libopencv-flann-dev, libopencv-gpu-dev, bzip2-dev, libopencv-ts-dev, libopencv-ml-dev, libav-dev, swig-dev, libopencv-stitching-dev, libopencv-imgproc-dev, python-dev, libopencv-calib3d-dev, libtiff-dev, libopencv-nonfree-dev, python-numpy-dev, libopencv-contrib-dev, libopencv-video-dev, libopencv-highgui-dev, libpng16-dev, libglib-2.0-dev, v4l-utils-dev, libopencv-objdetect-dev, libtool-dev, libopencv-legacy-dev, python-core-dev
+Source: https://github.com/Itseez/opencv/archive/2.4.3.tar.gz file://opencv-fix-pkgconfig-generation.patch

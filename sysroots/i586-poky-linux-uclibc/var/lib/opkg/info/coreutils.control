@@ -1,0 +1,15 @@
+Package: coreutils
+Version: 8.21-r0
+Description: The basic file, shell and text manipulation utilities.
+ The GNU Core Utilities provide the basic file, shell and text
+ manipulation utilities. These are the core utilities which are expected
+ to exist on every system.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+
+Architecture: i586
+OE: coreutils
+Homepage: http://www.gnu.org/software/coreutils/
+Depends: libgcc1 (>= 4.7.2), update-alternatives-cworth, libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libcap2 (>= 2.22), libgmp10 (>= 5.1.0), libiconv (>= 1.14), libattr1 (>= 2.4.46), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), librt0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.gnu.org/gnu/coreutils/coreutils-8.21.tar.xz file://remove-usr-local-lib-from-m4.patch file://coreutils-build-with-acl.patch file://dummy_help2man.patch

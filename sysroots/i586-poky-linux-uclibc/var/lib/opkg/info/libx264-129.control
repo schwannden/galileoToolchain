@@ -1,0 +1,14 @@
+Package: libx264-129
+Version: r2230+git-r1
+Description: x264 is a free software library and application for encoding video streams into the H.264/MPEG-4 AVC format
+ x264 is a free software library and application for encoding video
+ streams into the H.264/MPEG-4 AVC format
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: x264
+Homepage: http://www.videolan.org/developers/x264.html
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: git://git.videolan.org/x264.git file://don-t-default-to-cortex-a9-with-neon.patch

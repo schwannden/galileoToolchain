@@ -1,0 +1,16 @@
+Package: liba52-dev
+Version: 0.7.4-r4
+Description: liba52 version 0.7.4-r4 - Development files
+ Library for reading some sort of media format.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: liba52
+Homepage: http://liba52.sourceforge.net/
+Depends: liba52-0 (= 0.7.4-r4)
+Recommends: libgcc-s-dev, libc-dev, uclibc-libm-dev
+Source: http://liba52.sourceforge.net/files/a52dec-0.7.4.tar.gz file://buildcleanup.patch

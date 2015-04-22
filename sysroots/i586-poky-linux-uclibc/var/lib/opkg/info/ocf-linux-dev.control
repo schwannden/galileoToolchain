@@ -1,0 +1,15 @@
+Package: ocf-linux-dev
+Version: 20120127-r3.0
+Description: ocf-linux version 20120127-r3.0 - Development files
+ Install required headers to enable OCF Linux support  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: ocf-linux
+Homepage: unknown
+Depends: ocf-linux (= 20120127-r3.0)
+Source: http://sourceforge.net/projects/ocf-linux/files/ocf-linux/20120127/ocf-linux-20120127.tar.gz

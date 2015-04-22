@@ -1,0 +1,13 @@
+Package: liblzma-dbg
+Version: 5.1.2alpha-r0
+Description: xz version 5.1.2alpha-r0
+ utils for managing LZMA compressed files
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: i586
+OE: xz
+Homepage: http://tukaani.org/xz/
+Recommends: libc-dbg, libgcc-s-dbg, uclibc-libpthread-dbg
+Source: http://tukaani.org/xz/xz-5.1.2alpha.tar.gz

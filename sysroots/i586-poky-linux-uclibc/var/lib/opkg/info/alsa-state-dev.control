@@ -1,0 +1,17 @@
+Package: alsa-state-dev
+Version: 0.2.0-r3
+Description: Alsa scenario files to enable alsa state restoration. - Development files
+ Alsa Scenario Files - an init script and state files to restore sound
+ state at system boot and save it at system shut down.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: alsa-state
+Homepage: unknown
+Depends: alsa-state (= 0.2.0-r3)
+Recommends: alsa-utils-alsactl-dev
+Source: file://asound.conf file://asound.state file://alsa-state

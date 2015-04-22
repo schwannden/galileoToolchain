@@ -1,0 +1,16 @@
+Package: wpa-supplicant-dev
+Version: 2.0-r1
+Description: wpa-supplicant version 2.0-r1 - Development files
+ A Client for Wi-Fi Protected Access (WPA).  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: i586
+OE: wpa-supplicant
+Homepage: http://hostap.epitest.fi/wpa_supplicant/
+Depends: wpa-supplicant (= 2.0-r1)
+Recommends: libnl-genl-dev, libgcc-s-dev, dbus-lib-dev, libc-dev, libgnutls-dev, libnl-3-dev, libgcrypt-dev, dbus-dev
+Source: http://hostap.epitest.fi/releases/wpa_supplicant-2.0.tar.gz file://defconfig-gnutls file://wpa-supplicant.sh file://wpa_supplicant.conf file://wpa_supplicant.conf-sane file://99_wpa_supplicant file://fix-libnl3-host-contamination.patch

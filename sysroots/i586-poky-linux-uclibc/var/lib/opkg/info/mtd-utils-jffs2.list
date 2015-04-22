@@ -1,0 +1,4 @@
+/usr/sbin/mkfs.jffs2
+/usr/sbin/sumtool
+/usr/sbin/jffs2dump
+/usr/sbin/jffs2reader

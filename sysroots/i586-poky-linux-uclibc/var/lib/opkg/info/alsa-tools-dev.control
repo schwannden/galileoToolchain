@@ -1,0 +1,16 @@
+Package: alsa-tools-dev
+Version: 1.0.26.1-r1
+Description: alsa-tools version 1.0.26.1-r1 - Development files
+ Alsa Tools package contains advanced tools for certain sound cards.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2+
+Architecture: i586
+OE: alsa-tools
+Homepage: http://www.alsa-project.org
+Depends: alsa-tools (= 1.0.26.1-r1)
+Recommends: libgcc-s-dev, uclibc-libpthread-dev, ncurses-dev, libstdc++-dev, libasound-dev, uclibc-libm-dev, libc-dev, alsa-lib-dev
+Source: ftp://ftp.alsa-project.org/pub/tools/alsa-tools-1.0.26.1.tar.bz2 file://mips_has_no_io_h.patch file://autotools.patch file://makefile_no_gtk.patch

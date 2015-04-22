@@ -1,0 +1,15 @@
+Package: galileo-target-dev
+Version: 0.1-r0
+Description: galileo-target version 0.1-r0 - Development files
+ Clanton Software Sketch Framework  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: i586
+OE: galileo-target
+Homepage: unknown
+Depends: galileo-target (= 0.1-r0)
+Recommends: libgcc-s-dev, libc-dev
+Source: file://galileo-target.tar.bz2 file://launcher.sh file://1.usb_improv_patch-1.patch file://2.GAL-193-clloader-1.patch file://3.GAL-199-start_spi_upgrade-1.patch file://4.MAKER-222-Sketch_download_unstable-5.patch

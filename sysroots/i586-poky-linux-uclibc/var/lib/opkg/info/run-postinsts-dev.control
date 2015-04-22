@@ -1,0 +1,15 @@
+Package: run-postinsts-dev
+Version: 1.0-r9
+Description: run-postinsts version 1.0-r9 - Development files
+ Run postinstall scripts on device using awk  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: i586
+OE: run-postinsts
+Homepage: unknown
+Depends: run-postinsts (= 1.0-r9)
+Source: file://run-postinsts file://run-postinsts.awk

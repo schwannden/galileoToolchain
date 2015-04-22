@@ -1,0 +1,13 @@
+Package: libcap2
+Version: 2.22-r5
+Description: libcap version 2.22-r5
+ support for getting/setting POSIX.1e capabilities
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD | GPLv2
+Architecture: i586
+OE: libcap
+Homepage: http://sites.google.com/site/fullycapable/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.debian.org/debian/pool/main/libc/libcap2/libcap2_2.22.orig.tar.gz

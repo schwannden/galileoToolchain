@@ -1,0 +1,19 @@
+Package: libreadline-dbg
+Version: 6.2-r4
+Description: readline version 6.2-r4 - Debugging files
+ The GNU Readline library provides a set of functions for use by
+ applications that allow users to edit command lines as they are typed in.
+ Both Emacs and vi editing modes are available. The Readline library
+ includes  additional functions to maintain a list of previously-entered
+ command lines, to recall and perhaps reedit those   lines, and perform
+ csh-like history expansion on previous commands.  This package contains
+ ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+
+Architecture: i586
+OE: readline
+Homepage: unknown
+Recommends: libc-dbg, libreadline6 (= 6.2-r4), libgcc-s-dbg, ncurses-libtinfo-dbg
+Source: ftp://ftp.gnu.org/gnu/readline/readline-6.2.tar.gz;name=archive file://configure-fix.patch file://norpath.patch file://acinclude.m4 ftp://ftp.gnu.org/gnu/readline/readline-6.2-patches/readline62-001;name=patch1;apply=yes;striplevel=0 ftp://ftp.gnu.org/gnu/readline/readline-6.2-patches/readline62-002;name=patch2;apply=yes;striplevel=0 ftp://ftp.gnu.org/gnu/readline/readline-6.2-patches/readline62-003;name=patch3;apply=yes;striplevel=0 ftp://ftp.gnu.org/gnu/readline/readline-6.2-patches/readline62-004;name=patch4;apply=yes;striplevel=0

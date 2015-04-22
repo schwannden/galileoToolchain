@@ -1,0 +1,14 @@
+Package: libsamplerate0-dbg
+Version: 0.1.8-r1
+Description: libsamplerate0 version 0.1.8-r1 - Debugging files
+ An audio Sample Rate Conversion library  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: libsamplerate0
+Homepage: unknown
+Recommends: libsndfile-dbg, libsamplerate0 (= 0.1.8-r1), libc-dbg, libgcc-s-dbg, uclibc-libm-dbg
+Source: http://www.mega-nerd.com/SRC/libsamplerate-0.1.8.tar.gz

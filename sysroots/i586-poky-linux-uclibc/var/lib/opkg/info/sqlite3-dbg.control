@@ -1,0 +1,14 @@
+Package: sqlite3-dbg
+Version: 3071502-r0
+Description: sqlite3 version 3071502-r0 - Debugging files
+ An Embeddable SQL Database Engine  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: PD
+Architecture: i586
+OE: sqlite3
+Homepage: http://www.sqlite.org
+Recommends: uclibc-libdl-dbg, libsqlite3-dbg, libreadline-dbg, libgcc-s-dbg, libc-dbg, sqlite3 (= 3071502-r0), uclibc-libpthread-dbg
+Source: http://www.sqlite.org/sqlite-autoconf-3071502.tar.gz

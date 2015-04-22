@@ -1,0 +1,13 @@
+Package: alsa-utils-aconnect
+Version: 1.0.26-r0
+Description: alsa-utils version 1.0.26-r0
+ ALSA sequencer connection manager
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: alsa-utils
+Homepage: http://www.alsa-project.org
+Depends: libgcc1 (>= 4.7.2), libasound2 (>= 1.0.26), libpthread0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.0.26.tar.bz2 file://uclibc-exp10-replacement.patch file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://obsolete_automake_macros.patch

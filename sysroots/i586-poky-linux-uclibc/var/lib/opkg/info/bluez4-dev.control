@@ -1,0 +1,17 @@
+Package: bluez4-dev
+Version: 4.101-r5
+Description: Linux Bluetooth Stack Userland V4 - Development files
+ Linux Bluetooth stack V4 userland components.  These include a system
+ configurations, daemons, tools and system libraries.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: i586
+OE: bluez4
+Homepage: http://www.bluez.org
+Depends: bluez4, bluez-hcidump
+Recommends: uclibc-librt-dev, libc-dev, libgcc-s-dev, libusb-dev, uclibc-libpthread-dev, udev-dev, uclibc-libdl-dev, dbus-lib-dev, libglib-2.0-dev, libdbus-glib-1-dev, uclibc-libm-dev, alsa-lib-dev, libusb-0.1-dev, libasound-dev, libreadline-dev, libiconv-dev, gettext-runtime-dev, bluez-hcidump-dev, libusb-1.0-dev, libudev-dev, libcheck-dev
+Source: http://kernel.org/pub/linux/bluetooth/bluez-4.101.tar.gz file://bluetooth.conf file://sbc_mmx.patch file://fix-udev-paths.patch file://obsolete_automake_macros.patch

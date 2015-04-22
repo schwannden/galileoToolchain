@@ -1,0 +1,13 @@
+Package: linux-firmware-iwlwifi-135-6
+Version: 1:0.0+git0+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+Description: linux-firmware version 0.0+gitAUTOINC+c530a75c1e6a472b0eb9558310b518f0dfcd8860-r1
+ Firmware files for use with Linux kernel
+Section: kernel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: Proprietary
+Architecture: all
+OE: linux-firmware
+Homepage: unknown
+Depends: linux-firmware-iwlwifi-licence
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git;protocol=git

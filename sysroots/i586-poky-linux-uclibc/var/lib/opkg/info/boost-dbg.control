@@ -1,0 +1,14 @@
+Package: boost-dbg
+Version: 1.55.0-r0
+Description: boost version 1.55.0-r0 - Debugging files
+ Free peer-reviewed portable C++ source libraries  This package contains
+ ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSL-1.0 & MIT & Python-2.0
+Architecture: i586
+OE: boost
+Homepage: http://www.boost.org/
+Recommends: libbz2-dbg, boost-regex-dbg, boost-system-dbg, libstdc++-dbg, libgcc-s-dbg, libc-dbg, libz-dbg, uclibc-librt-dbg, boost (= 1.55.0-r0), uclibc-libpthread-dbg
+Source: http://downloads.sourceforge.net/boost/boost_1_55_0.tar.bz2 file://arm-intrinsics.patch

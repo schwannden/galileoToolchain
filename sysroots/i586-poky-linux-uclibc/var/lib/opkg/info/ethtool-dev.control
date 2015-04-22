@@ -1,0 +1,16 @@
+Package: ethtool-dev
+Version: 3.6-r0
+Description: Display or change ethernet card settings - Development files
+ A small utility for examining and tuning the settings of your ethernet-
+ based network interfaces.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: ethtool
+Homepage: http://www.kernel.org/pub/software/network/ethtool/
+Depends: ethtool (= 3.6-r0)
+Recommends: libgcc-s-dev, libc-dev
+Source: http://kernel.org/pub/software/network/ethtool/ethtool-3.6.tar.gz

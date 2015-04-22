@@ -1,0 +1,13 @@
+Package: wireless-tools
+Version: 1:29-r4
+Description: wireless-tools version 29-r4
+ Tools for the Linux Standard Wireless Extension Subsystem
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+Architecture: i586
+OE: wireless-tools
+Homepage: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350), libm0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless_tools.29.tar.gz file://remove.ldconfig.call.patch file://man.patch file://wireless-tools.if-pre-up file://zzz-wireless.if-pre-up file://avoid_strip.patch file://ldflags.patch

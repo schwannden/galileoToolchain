@@ -1,0 +1,15 @@
+Package: libkmod2
+Version: 9-r0.0
+Description: kmod version 9-r0.0
+ kmod is a set of tools to handle common tasks with Linux kernel modules
+ like                insert, remove, list, check properties, resolve
+ dependencies and aliases.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPL-2.1+
+Architecture: i586
+OE: kmod
+Homepage: http://packages.profusion.mobi/kmod/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: git://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git file://depmod-search.conf file://0001-man-disable-man-page-generation-because-we-don-t-hav.patch

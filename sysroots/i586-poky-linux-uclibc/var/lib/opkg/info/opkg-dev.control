@@ -1,0 +1,15 @@
+Package: opkg-dev
+Version: 1:0.1.8+svnr649-r13.0
+Description: opkg version 0.1.8+svnr649-r13.0 - Development files
+ Open Package Manager  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: i586
+OE: opkg
+Homepage: http://code.google.com/p/opkg/
+Depends: opkg (= 1:0.1.8+svnr649-r13.0)
+Recommends: libgcc-s-dev, update-alternatives-cworth-dev, libc-dev, opkg-config-base-dev, libopkg-dev
+Source: svn://opkg.googlecode.com/svn;module=trunk;protocol=http file://obsolete_automake_macros.patch

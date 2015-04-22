@@ -1,0 +1,17 @@
+Package: make
+Version: 3.82-r3
+Description: GNU tool that controls the build process
+ Make is a tool which controls the generation of executables and other
+ non-source files of a program from the program's source files.  Make gets
+ its knowledge of how to build your program from a file called the
+ makefile, which lists each of the non-source files and how to compute it
+ from other files.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3 & LGPLv2
+Architecture: i586
+OE: make
+Homepage: http://www.gnu.org/software/make/
+Depends: libgcc1 (>= 4.7.2), libc0 (>= 0.9.33+git0+946799cd0ce0c6c803c9cb173a84f4d607bde350)
+Source: ftp://ftp.gnu.org/gnu/make/make-3.82.tar.bz2 file://SCCS.patch file://expand_MAKEFLAGS.patch file://intermediate-target-bugfix.patch file://make-savannah-bug30612-handling_of_archives.patch;striplevel=0

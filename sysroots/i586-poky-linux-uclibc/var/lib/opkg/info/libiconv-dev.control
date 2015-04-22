@@ -1,0 +1,17 @@
+Package: libiconv-dev
+Version: 1.14-r1
+Description: libiconv version 1.14-r1 - Development files
+ GNU libiconv - libiconv is for you if your application needs to support
+ multiple character encodings, but that support lacks from your system.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv3
+Architecture: i586
+OE: libiconv
+Homepage: http://www.gnu.org/software/libiconv
+Depends: libiconv (= 1.14-r1)
+Recommends: libgcc-s-dev, libc-dev
+Source: ftp://ftp.gnu.org/gnu/libiconv/libiconv-1.14.tar.gz file://autoconf.patch file://add-relocatable-module.patch

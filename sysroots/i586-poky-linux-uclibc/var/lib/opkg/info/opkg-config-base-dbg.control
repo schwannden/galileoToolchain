@@ -1,0 +1,14 @@
+Package: opkg-config-base-dbg
+Version: 1.0-r1
+Description: opkg-config-base version 1.0-r1 - Debugging files
+ Base configuration files for opkg  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: clanton
+OE: opkg-config-base
+Homepage: unknown
+Recommends: opkg-config-base (= 1.0-r1)
+Source: None

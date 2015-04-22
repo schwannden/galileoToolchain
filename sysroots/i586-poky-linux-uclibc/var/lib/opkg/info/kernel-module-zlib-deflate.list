@@ -1,0 +1,3 @@
+/lib/modules/3.8.7-yocto-standard/kernel/lib/
+/lib/modules/3.8.7-yocto-standard/kernel/lib/zlib_deflate/
+/lib/modules/3.8.7-yocto-standard/kernel/lib/zlib_deflate/zlib_deflate.ko

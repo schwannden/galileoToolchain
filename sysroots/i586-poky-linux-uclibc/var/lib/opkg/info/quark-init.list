@@ -1,0 +1,4 @@
+/etc/init.d/quark-init.sh
+/etc/modules-load.quark/galileo_gen2.conf
+/etc/modules-load.quark/
+/etc/modules-load.quark/galileo.conf
